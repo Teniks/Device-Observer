@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище au_dbModelContainer" CdmEntityContainer="au_dbEntities">
+    <EntitySetMapping Name="UsersAU">
+      <EntityTypeMapping TypeName="au_dbModel.UsersAU">
+        <MappingFragment StoreEntitySet="UsersAU">
+          <ScalarProperty Name="IdUserAU" ColumnName="IdUserAU" />
+          <ScalarProperty Name="LoginUserAU" ColumnName="LoginUserAU" />
+          <ScalarProperty Name="PasswordUserAU" ColumnName="PasswordUserAU" />
+          <ScalarProperty Name="RoleUser" ColumnName="RoleUser" />
+          <ScalarProperty Name="Details" ColumnName="Details" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

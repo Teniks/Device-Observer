@@ -1,0 +1,53 @@
+C:\Users\Vtx\source\repos\Device Observer\Device Observer\obj\Debug\Device Observer.csproj.AssemblyReference.cache
+C:\Users\Vtx\source\repos\Device Observer\Device Observer\obj\Debug\MainWindow.g.cs
+C:\Users\Vtx\source\repos\Device Observer\Device Observer\obj\Debug\Views\DevicesListView.g.cs
+C:\Users\Vtx\source\repos\Device Observer\Device Observer\obj\Debug\App.g.cs
+C:\Users\Vtx\source\repos\Device Observer\Device Observer\obj\Debug\Device Observer_MarkupCompile.cache
+C:\Users\Vtx\source\repos\Device Observer\Device Observer\obj\Debug\Device Observer_MarkupCompile.lref
+C:\Users\Vtx\source\repos\Device Observer\Device Observer\bin\Debug\Device Observer.exe.config
+C:\Users\Vtx\source\repos\Device Observer\Device Observer\bin\Debug\Device Observer.exe
+C:\Users\Vtx\source\repos\Device Observer\Device Observer\bin\Debug\Device Observer.pdb
+C:\Users\Vtx\source\repos\Device Observer\Device Observer\bin\Debug\EntityFramework.dll
+C:\Users\Vtx\source\repos\Device Observer\Device Observer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Vtx\source\repos\Device Observer\Device Observer\bin\Debug\EntityFramework.xml
+C:\Users\Vtx\source\repos\Device Observer\Device Observer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Vtx\source\repos\Device Observer\Device Observer\obj\Debug\MainWindow.baml
+C:\Users\Vtx\source\repos\Device Observer\Device Observer\obj\Debug\Views\DevicesListView.baml
+C:\Users\Vtx\source\repos\Device Observer\Device Observer\obj\Debug\Device Observer.g.resources
+C:\Users\Vtx\source\repos\Device Observer\Device Observer\obj\Debug\Device_Observer.Properties.Resources.resources
+C:\Users\Vtx\source\repos\Device Observer\Device Observer\obj\Debug\Device Observer.csproj.GenerateResource.cache
+C:\Users\Vtx\source\repos\Device Observer\Device Observer\obj\Debug\Device Observer.csproj.CoreCompileInputs.cache
+C:\Users\Vtx\source\repos\Device Observer\Device Observer\obj\Debug\Device O.F6A8A014.Up2Date
+C:\Users\Vtx\source\repos\Device Observer\Device Observer\obj\Debug\Device Observer.exe
+C:\Users\Vtx\source\repos\Device Observer\Device Observer\obj\Debug\Device Observer.pdb
+C:\Users\Vtx\source\repos\Device Observer\Device Observer\obj\Debug\Device Observer_Content.g.cs
+C:\Users\Vtx\source\repos\Device Observer\Device Observer\obj\Debug\Views\AuthorizationView.g.cs
+C:\Users\Vtx\source\repos\Device Observer\Device Observer\obj\Debug\Views\AuthorizationView.baml
+C:\Users\Vtx\source\repos\Device Observer\Device Observer\obj\Debug\Views\AddEditView.g.cs
+C:\Users\Vtx\source\repos\Device Observer\Device Observer\obj\Debug\Views\AddEditView.baml
+C:\Users\Vtx\source\repos\Device Observer\Device Observer\bin\Debug\data\db_local.mdf
+C:\Users\Vtx\source\repos\Device Observer\Device Observer\bin\Debug\data\db_local_log.ldf
+C:\Users\Vtx\source\repos\Device Observer\Device Observer\obj\Debug\Views\RegistrationView.g.cs
+C:\Users\Vtx\source\repos\Device Observer\Device Observer\obj\Debug\Views\RegistrationView.baml
+C:\Users\Vtx\source\repos\Device Observer\Device Observer\bin\Debug\data\au_db.mdf
+C:\Users\Vtx\source\repos\Device Observer\Device Observer\bin\Debug\data\au_db_log.ldf
+C:\Users\Vtx\source\repos\Device Observer\Device Observer\bin\Debug\ClosedXML.dll
+C:\Users\Vtx\source\repos\Device Observer\Device Observer\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\Vtx\source\repos\Device Observer\Device Observer\bin\Debug\ExcelNumberFormat.dll
+C:\Users\Vtx\source\repos\Device Observer\Device Observer\bin\Debug\Irony.dll
+C:\Users\Vtx\source\repos\Device Observer\Device Observer\bin\Debug\SixLabors.Fonts.dll
+C:\Users\Vtx\source\repos\Device Observer\Device Observer\bin\Debug\System.Buffers.dll
+C:\Users\Vtx\source\repos\Device Observer\Device Observer\bin\Debug\System.IO.Packaging.dll
+C:\Users\Vtx\source\repos\Device Observer\Device Observer\bin\Debug\System.Memory.dll
+C:\Users\Vtx\source\repos\Device Observer\Device Observer\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Vtx\source\repos\Device Observer\Device Observer\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Vtx\source\repos\Device Observer\Device Observer\bin\Debug\XLParser.dll
+C:\Users\Vtx\source\repos\Device Observer\Device Observer\bin\Debug\ClosedXML.xml
+C:\Users\Vtx\source\repos\Device Observer\Device Observer\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\Vtx\source\repos\Device Observer\Device Observer\bin\Debug\ExcelNumberFormat.xml
+C:\Users\Vtx\source\repos\Device Observer\Device Observer\bin\Debug\SixLabors.Fonts.xml
+C:\Users\Vtx\source\repos\Device Observer\Device Observer\bin\Debug\System.Buffers.xml
+C:\Users\Vtx\source\repos\Device Observer\Device Observer\bin\Debug\System.IO.Packaging.xml
+C:\Users\Vtx\source\repos\Device Observer\Device Observer\bin\Debug\System.Memory.xml
+C:\Users\Vtx\source\repos\Device Observer\Device Observer\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Vtx\source\repos\Device Observer\Device Observer\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml

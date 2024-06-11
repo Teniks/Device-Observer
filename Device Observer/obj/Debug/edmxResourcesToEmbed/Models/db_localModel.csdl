@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="db_localModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="AccessLogs">
+    <Key>
+      <PropertyRef Name="IdLog" />
+    </Key>
+    <Property Name="IdLog" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TimeStampLog" Type="DateTime" Precision="3" />
+    <Property Name="Details" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AccessRights">
+    <Key>
+      <PropertyRef Name="IdRight" />
+    </Key>
+    <Property Name="IdRight" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IdUser" Type="Int32" Nullable="false" />
+    <Property Name="IdResource" Type="Int32" Nullable="false" />
+    <Property Name="Permission" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Resources" Relationship="Self.FK__AccessRig__IdRes__3B75D760" FromRole="AccessRights" ToRole="Resources" />
+    <NavigationProperty Name="Users" Relationship="Self.FK__AccessRig__IdUse__3A81B327" FromRole="AccessRights" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="ListOfChanges">
+    <Key>
+      <PropertyRef Name="IdChanges" />
+    </Key>
+    <Property Name="IdChanges" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DateChanges" Type="DateTime" Precision="3" />
+    <Property Name="Details" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Resources">
+    <Key>
+      <PropertyRef Name="IdResource" />
+    </Key>
+    <Property Name="IdResource" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NameResource" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="TypeResource" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="DescriptionResource" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="AccessRights" Relationship="Self.FK__AccessRig__IdRes__3B75D760" FromRole="Resources" ToRole="AccessRights" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="IdUser" />
+    </Key>
+    <Property Name="IdUser" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FullNameUser" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="RoleUser" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="AccessRights" Relationship="Self.FK__AccessRig__IdUse__3A81B327" FromRole="Users" ToRole="AccessRights" />
+  </EntityType>
+  <Association Name="FK__AccessRig__IdRes__3B75D760">
+    <End Role="Resources" Type="Self.Resources" Multiplicity="1" />
+    <End Role="AccessRights" Type="Self.AccessRights" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Resources">
+        <PropertyRef Name="IdResource" />
+      </Principal>
+      <Dependent Role="AccessRights">
+        <PropertyRef Name="IdResource" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__AccessRig__IdUse__3A81B327">
+    <End Role="Users" Type="Self.Users" Multiplicity="1" />
+    <End Role="AccessRights" Type="Self.AccessRights" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="IdUser" />
+      </Principal>
+      <Dependent Role="AccessRights">
+        <PropertyRef Name="IdUser" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="db_localEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="AccessLogs" EntityType="Self.AccessLogs" />
+    <EntitySet Name="AccessRights" EntityType="Self.AccessRights" />
+    <EntitySet Name="ListOfChanges" EntityType="Self.ListOfChanges" />
+    <EntitySet Name="Resources" EntityType="Self.Resources" />
+    <EntitySet Name="Users" EntityType="Self.Users" />
+    <AssociationSet Name="FK__AccessRig__IdRes__3B75D760" Association="Self.FK__AccessRig__IdRes__3B75D760">
+      <End Role="Resources" EntitySet="Resources" />
+      <End Role="AccessRights" EntitySet="AccessRights" />
+    </AssociationSet>
+    <AssociationSet Name="FK__AccessRig__IdUse__3A81B327" Association="Self.FK__AccessRig__IdUse__3A81B327">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="AccessRights" EntitySet="AccessRights" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

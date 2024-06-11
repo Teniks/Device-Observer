@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище db_localModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="AccessLogs">
+    <Key>
+      <PropertyRef Name="IdLog" />
+    </Key>
+    <Property Name="IdLog" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TimeStampLog" Type="datetime" />
+    <Property Name="Details" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AccessRights">
+    <Key>
+      <PropertyRef Name="IdRight" />
+    </Key>
+    <Property Name="IdRight" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IdUser" Type="int" Nullable="false" />
+    <Property Name="IdResource" Type="int" Nullable="false" />
+    <Property Name="Permission" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ListOfChanges">
+    <Key>
+      <PropertyRef Name="IdChanges" />
+    </Key>
+    <Property Name="IdChanges" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DateChanges" Type="datetime" />
+    <Property Name="Details" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Resources">
+    <Key>
+      <PropertyRef Name="IdResource" />
+    </Key>
+    <Property Name="IdResource" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NameResource" Type="nvarchar" MaxLength="255" Nullable="false" />
+    <Property Name="TypeResource" Type="nvarchar" MaxLength="255" Nullable="false" />
+    <Property Name="DescriptionResource" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="IdUser" />
+    </Key>
+    <Property Name="IdUser" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FullNameUser" Type="nvarchar" MaxLength="255" Nullable="false" />
+    <Property Name="RoleUser" Type="nvarchar" MaxLength="255" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__AccessRig__IdRes__3B75D760">
+    <End Role="Resources" Type="Self.Resources" Multiplicity="1" />
+    <End Role="AccessRights" Type="Self.AccessRights" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Resources">
+        <PropertyRef Name="IdResource" />
+      </Principal>
+      <Dependent Role="AccessRights">
+        <PropertyRef Name="IdResource" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__AccessRig__IdUse__3A81B327">
+    <End Role="Users" Type="Self.Users" Multiplicity="1" />
+    <End Role="AccessRights" Type="Self.AccessRights" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="IdUser" />
+      </Principal>
+      <Dependent Role="AccessRights">
+        <PropertyRef Name="IdUser" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Хранилище db_localModelContainer">
+    <EntitySet Name="AccessLogs" EntityType="Self.AccessLogs" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AccessRights" EntityType="Self.AccessRights" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ListOfChanges" EntityType="Self.ListOfChanges" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Resources" EntityType="Self.Resources" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__AccessRig__IdRes__3B75D760" Association="Self.FK__AccessRig__IdRes__3B75D760">
+      <End Role="Resources" EntitySet="Resources" />
+      <End Role="AccessRights" EntitySet="AccessRights" />
+    </AssociationSet>
+    <AssociationSet Name="FK__AccessRig__IdUse__3A81B327" Association="Self.FK__AccessRig__IdUse__3A81B327">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="AccessRights" EntitySet="AccessRights" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
