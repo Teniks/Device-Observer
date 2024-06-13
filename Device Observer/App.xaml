@@ -4,6 +4,42 @@
              xmlns:local="clr-namespace:Device_Observer"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <Style TargetType="{x:Type Button}">
+            <Setter Property="Background" Value="#292929"/>
+            <Setter Property="BorderBrush" Value="#BF8030"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="Padding" Value="4"/>
+        </Style>
+        <Style TargetType="{x:Type TextBox}">
+            <Setter Property="Background" Value="#454545"/>
+            <Setter Property="BorderBrush" Value="#454545"/>
+            <Setter Property="Foreground" Value="White"/>
+        </Style>
+        <Style TargetType="{x:Type DataGrid}">
+            <Setter Property="VerticalGridLinesBrush" Value="Transparent"/>
+            <Setter Property="Background" Value="#252525"/>
+            <Setter Property="BorderBrush" Value="#252525"/>
+        </Style>
+        <Style TargetType="{x:Type ListView}">
+            <Setter Property="ItemTemplate">
+                <Setter.Value>
+                    <DataTemplate DataType="{x:Type ListItem}">
+                        <Grid Margin="0 2 0 2" Height="30">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="5"/>
+                                <ColumnDefinition Width="Auto"/>
+                            </Grid.ColumnDefinitions>
+                            <Border x:Name="LeftBorder" Background="#0984d1" Grid.Column="0"/>
+                            <Border x:Name="RightBorder" Background="#0984d1" Grid.Column="1" Padding="5 1 5 1"
+                                    Opacity="0.4"
+                                    HorizontalAlignment="Stretch"/>
+                            <TextBlock Text="{Binding .}" Grid.Column="1" FontSize="16"
+                                       Foreground="White" VerticalAlignment="Center" Padding="5 1 5 1"/>
+                        </Grid>
+                    </DataTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
     </Application.Resources>
 </Application>

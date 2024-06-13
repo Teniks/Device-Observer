@@ -10,9 +10,9 @@
 
     <Grid>
         <StackPanel MaxHeight="200" MaxWidth="300">
-            <TextBlock Text="Login:" Margin="10,2"/>
+            <TextBlock Text="Login:" Margin="10,2" Foreground="White"/>
             <TextBox x:Name="LoginBox" Margin="10"/>
-            <TextBlock Text="Password:" Margin="10,2"/>
+            <TextBlock Text="Password:" Margin="10,2" Foreground="White"/>
             <TextBox x:Name="PasswordBox" Margin="10"/>
             <Button x:Name="AuthorizationBtn" Click="AuthorizationBtn_Click"  Content="Authorization" Margin="10"/>
         </StackPanel>

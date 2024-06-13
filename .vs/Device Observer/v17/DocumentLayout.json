@@ -1,115 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Vtx\\source\\repos\\Device Observer\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{E355C7CD-F6C5-4DD0-BA62-0906BD2FE6A1}|Device Observer\\Device Observer.csproj|c:\\users\\vtx\\source\\repos\\device observer\\device observer\\models\\aucontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E355C7CD-F6C5-4DD0-BA62-0906BD2FE6A1}|Device Observer\\Device Observer.csproj|solutionrelative:device observer\\models\\aucontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E355C7CD-F6C5-4DD0-BA62-0906BD2FE6A1}|Device Observer\\Device Observer.csproj|C:\\Users\\Vtx\\source\\repos\\Device Observer\\device observer\\viewmodels\\iviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E355C7CD-F6C5-4DD0-BA62-0906BD2FE6A1}|Device Observer\\Device Observer.csproj|solutionrelative:device observer\\viewmodels\\iviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E355C7CD-F6C5-4DD0-BA62-0906BD2FE6A1}|Device Observer\\Device Observer.csproj|C:\\Users\\Vtx\\source\\repos\\Device Observer\\device observer\\models\\hashing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E355C7CD-F6C5-4DD0-BA62-0906BD2FE6A1}|Device Observer\\Device Observer.csproj|solutionrelative:device observer\\models\\hashing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E355C7CD-F6C5-4DD0-BA62-0906BD2FE6A1}|Device Observer\\Device Observer.csproj|C:\\Users\\Vtx\\source\\repos\\Device Observer\\device observer\\models\\export.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E355C7CD-F6C5-4DD0-BA62-0906BD2FE6A1}|Device Observer\\Device Observer.csproj|solutionrelative:device observer\\models\\export.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E355C7CD-F6C5-4DD0-BA62-0906BD2FE6A1}|Device Observer\\Device Observer.csproj|C:\\Users\\Vtx\\source\\repos\\Device Observer\\device observer\\views\\deviceslistview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E355C7CD-F6C5-4DD0-BA62-0906BD2FE6A1}|Device Observer\\Device Observer.csproj|solutionrelative:device observer\\views\\deviceslistview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E355C7CD-F6C5-4DD0-BA62-0906BD2FE6A1}|Device Observer\\Device Observer.csproj|C:\\Users\\Vtx\\source\\repos\\Device Observer\\device observer\\views\\deviceslistview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{E355C7CD-F6C5-4DD0-BA62-0906BD2FE6A1}|Device Observer\\Device Observer.csproj|solutionrelative:device observer\\views\\deviceslistview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
-        {
-          "DockedHeight": 200,
-          "SelectedChildIndex": 1,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Vtx\\source\\repos\\Device Observer\\Device Observer\\ViewModels\\IViewModel.cs",
-              "RelativeDocumentMoniker": "Device Observer\\ViewModels\\IViewModel.cs",
-              "ToolTip": "C:\\Users\\Vtx\\source\\repos\\Device Observer\\Device Observer\\ViewModels\\IViewModel.cs",
-              "RelativeToolTip": "Device Observer\\ViewModels\\IViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-11T22:38:54.04Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AUContext.cs",
-              "DocumentMoniker": "C:\\Users\\Vtx\\source\\repos\\Device Observer\\Device Observer\\Models\\AUContext.cs",
-              "RelativeDocumentMoniker": "Device Observer\\Models\\AUContext.cs",
-              "ToolTip": "C:\\Users\\Vtx\\source\\repos\\Device Observer\\Device Observer\\Models\\AUContext.cs",
-              "RelativeToolTip": "Device Observer\\Models\\AUContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-11T22:33:49.343Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Hashing.cs",
-              "DocumentMoniker": "C:\\Users\\Vtx\\source\\repos\\Device Observer\\Device Observer\\Models\\Hashing.cs",
-              "RelativeDocumentMoniker": "Device Observer\\Models\\Hashing.cs",
-              "ToolTip": "C:\\Users\\Vtx\\source\\repos\\Device Observer\\Device Observer\\Models\\Hashing.cs",
-              "RelativeToolTip": "Device Observer\\Models\\Hashing.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-11T21:26:38.462Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Export.cs",
-              "DocumentMoniker": "C:\\Users\\Vtx\\source\\repos\\Device Observer\\Device Observer\\Models\\Export.cs",
-              "RelativeDocumentMoniker": "Device Observer\\Models\\Export.cs",
-              "ToolTip": "C:\\Users\\Vtx\\source\\repos\\Device Observer\\Device Observer\\Models\\Export.cs",
-              "RelativeToolTip": "Device Observer\\Models\\Export.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAQwAkAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-11T21:23:06.211Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DevicesListView.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Vtx\\source\\repos\\Device Observer\\Device Observer\\Views\\DevicesListView.xaml.cs",
-              "RelativeDocumentMoniker": "Device Observer\\Views\\DevicesListView.xaml.cs",
-              "ToolTip": "C:\\Users\\Vtx\\source\\repos\\Device Observer\\Device Observer\\Views\\DevicesListView.xaml.cs",
-              "RelativeToolTip": "Device Observer\\Views\\DevicesListView.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGMBAAA/AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-11T16:51:52.175Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DevicesListView.xaml",
-              "DocumentMoniker": "C:\\Users\\Vtx\\source\\repos\\Device Observer\\Device Observer\\Views\\DevicesListView.xaml",
-              "RelativeDocumentMoniker": "Device Observer\\Views\\DevicesListView.xaml",
-              "ToolTip": "C:\\Users\\Vtx\\source\\repos\\Device Observer\\Device Observer\\Views\\DevicesListView.xaml",
-              "RelativeToolTip": "Device Observer\\Views\\DevicesListView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-08T16:06:43.068Z"
-            }
-          ]
-        },
         {
           "DockedHeight": 192,
           "SelectedChildIndex": -1,

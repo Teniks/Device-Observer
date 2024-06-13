@@ -1,9 +1,11 @@
 ﻿using Device_Observer.Models;
 using Device_Observer.ViewModels;
+using Microsoft.Win32;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
+using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
 
@@ -42,6 +44,60 @@ namespace Device_Observer.Views
                 usersAUVM = new UsersAUVM();
 
                 TableNamesList.ItemsSource = new List<string> { "Ответственные", "Ресурсы", "Права доступа", "Список изменений", "Логи доступа", "Пользователи", "Количество типов ресурсов" };
+
+                BackupPanel.Visibility = Visibility.Visible;
+                BackupBtn.Click += delegate (object sender, RoutedEventArgs e)
+                {
+                    string connectionStr = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"C:\\Users\\Vtx\\source\\repos\\Device Observer\\Device Observer\\data\\db_local.mdf\";Integrated Security=True";
+
+
+                    // Создаем диалог сохранения
+                    SaveFileDialog saveFileDialog = new SaveFileDialog();
+
+                    // Настраиваем диалог
+                    saveFileDialog.Filter = "xlsx files (*.xlsx)|*.xlsx|All files (*.*)|*.*";
+                    saveFileDialog.DefaultExt = ".xlsx";
+                    saveFileDialog.AddExtension = true;
+
+                    // Показываем диалог и обрабатываем результат
+                    if (saveFileDialog.ShowDialog() == true)
+                    {
+                        try
+                        {
+                            BackupManager.BackupDatabase(connectionStr, "C:\\MyDatabaseBackup.bak");
+                        }
+                        catch (Exception ex)
+                        {
+                            MessageBox.Show(ex.Message);
+                        }
+                    }
+
+                };
+
+                RestoreBtn.Click += delegate (object sender, RoutedEventArgs e)
+                {
+                    string connectionStr = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"C:\\Users\\Vtx\\source\\repos\\Device Observer\\Device Observer\\data\\db_local.mdf\";Integrated Security=True";
+
+                    // Создаем диалог сохранения
+                    SaveFileDialog saveFileDialog = new SaveFileDialog();
+
+                    // Настраиваем диалог
+                    saveFileDialog.Filter = "xlsx files (*.xlsx)|*.xlsx|All files (*.*)|*.*";
+                    saveFileDialog.DefaultExt = ".xlsx";
+                    saveFileDialog.AddExtension = true;
+
+                    // Показываем диалог и обрабатываем результат
+                    if (saveFileDialog.ShowDialog() == true)
+                    {
+                        try
+                        {
+                            BackupManager.RestoreDatabase(connectionStr, "C:\\MyDatabaseBackup.bak");
+                        }catch (Exception ex)
+                        {
+                            MessageBox.Show(ex.Message);
+                        }
+                    }
+                };
             }
 
             IsEnabledBtns(false);
@@ -345,20 +401,20 @@ namespace Device_Observer.Views
         {
             try
             {
-                //// Создаем диалог сохранения
-                //SaveFileDialog saveFileDialog = new SaveFileDialog();
+                // Создаем диалог сохранения
+                SaveFileDialog saveFileDialog = new SaveFileDialog();
 
-                //// Настраиваем диалог
-                //saveFileDialog.Filter = "xlsx files (*.xlsx)|*.xlsx|All files (*.*)|*.*";
-                //saveFileDialog.DefaultExt = ".xlsx";
-                //saveFileDialog.AddExtension = true;
+                // Настраиваем диалог
+                saveFileDialog.Filter = "xlsx files (*.xlsx)|*.xlsx|All files (*.*)|*.*";
+                saveFileDialog.DefaultExt = ".xlsx";
+                saveFileDialog.AddExtension = true;
 
-                //// Показываем диалог и обрабатываем результат
-                //if (saveFileDialog.ShowDialog() == true)
-                //{
-                //}
-                // Сохраняем данные в CSV-файл
-                Export.ExportToExcel(DataTable, "C:\\ExportedData.xlsx");
+                // Показываем диалог и обрабатываем результат
+                if (saveFileDialog.ShowDialog() == true)
+                {
+                    Export.ExportToExcel(DataTable, saveFileDialog.FileName);
+                }
+                //Сохраняем данные в CSV-файл
             }
             catch(Exception ex)
             {

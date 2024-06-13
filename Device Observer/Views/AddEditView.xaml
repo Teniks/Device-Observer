@@ -14,11 +14,11 @@
             <RowDefinition/>
         </Grid.RowDefinitions>
         <StackPanel MaxWidth="780" MaxHeight="400" Grid.Row="0">
-            <TextBlock x:Name="firstBlock" Margin="10, 2"/>
+            <TextBlock x:Name="firstBlock" Margin="10, 2" Foreground="White"/>
             <TextBox x:Name="firstBox" Margin="10"/>
-            <TextBlock x:Name="secondBlock" Margin="10, 2"/>
+            <TextBlock x:Name="secondBlock" Margin="10, 2" Foreground="White"/>
             <TextBox x:Name="secondBox" Margin="10"/>
-            <TextBlock x:Name="thirdBlock" Margin="10, 2"/>
+            <TextBlock x:Name="thirdBlock" Margin="10, 2" Foreground="White"/>
             <TextBox x:Name="thirdBox" Margin="10"/>
             <Button x:Name="Save" Click="Save_Click" Content="Сохранить" Margin="15, 20"/>
         </StackPanel>

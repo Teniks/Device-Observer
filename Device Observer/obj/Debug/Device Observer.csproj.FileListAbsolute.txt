@@ -51,3 +51,4 @@ C:\Users\Vtx\source\repos\Device Observer\Device Observer\bin\Debug\System.IO.Pa
 C:\Users\Vtx\source\repos\Device Observer\Device Observer\bin\Debug\System.Memory.xml
 C:\Users\Vtx\source\repos\Device Observer\Device Observer\bin\Debug\System.Numerics.Vectors.xml
 C:\Users\Vtx\source\repos\Device Observer\Device Observer\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Vtx\source\repos\Device Observer\Device Observer\obj\Debug\App.baml

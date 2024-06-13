@@ -8,7 +8,7 @@
       d:DesignHeight="450" d:DesignWidth="800"
       Title="DevicesListView">
 
-    <Grid>
+    <Grid Background="#252525">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="auto"/>
@@ -17,21 +17,29 @@
         <Grid Grid.Row="0">
             <Grid.RowDefinitions>
                 <RowDefinition Height="9*"/>
-                <RowDefinition/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
             </Grid.RowDefinitions>
-            <ListView x:Name="TableNamesList" Grid.Row="0"/>
+            <ListView x:Name="TableNamesList" Grid.Row="0" Background="#252525" BorderBrush="#252525"
+                      ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+
+            </ListView>
+            <StackPanel x:Name="BackupPanel" Visibility="Collapsed" Orientation="Vertical" Grid.Row="1">
+                <Button x:Name="BackupBtn" Content="Резервное копирование" Margin="5" Height="30"/>
+                <Button x:Name="RestoreBtn" Content="Загрузка резервной копии" Margin="5" Height="30"/>
+            </StackPanel>
             <StackPanel Orientation="Horizontal" Grid.Row="2">
                 <Button x:Name="GoBack" Click="GoBack_Click"  Content="Вернуться" Margin="5" Height="30"/>
                 <Button x:Name="OptionsBtn" Click="OptionsBtn_Click" Content="Экспорт" Margin="5" Width="Auto" Height="30"/>
             </StackPanel>
         </Grid>
-        <GridSplitter Grid.Column="1" Width="2" ShowsPreview="False"
+        <GridSplitter Grid.Column="1" Width="2" ShowsPreview="False" Background="#0984d1" Opacity="0.7"
                       HorizontalAlignment="Center" VerticalAlignment="Stretch" Margin="3"/>
         <Grid Grid.Column="2">
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="9*"/>
-                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
                 </Grid.RowDefinitions>
                 <DataGrid x:Name="DataTable" Grid.Row="0" IsReadOnly="True"/>
                 <Grid Grid.Row="1">
@@ -39,7 +47,7 @@
                         <Button x:Name="AddBtn" Click="AddBtn_Click" Content="Добавить новую" Margin="5" Height="30"/>
                         <Button x:Name="RemoveBtn" Click="RemoveBtn_Click"  Content="Удалить существующую" Margin="5" Height="30"/>
                         <Button x:Name="UpdateBtn" Click="UpdateBtn_Click"  Content="Изменить существующую" Margin="5" Height="30"/>
-                        <CheckBox x:Name="IsFilter" Content="Фильтр" Margin="5, 5" VerticalAlignment="Center"/>
+                        <CheckBox x:Name="IsFilter" Content="Фильтр" Margin="5, 5" VerticalAlignment="Center" Foreground="White" Background="#314451" BorderBrush="#314451"/>
                         <TextBox x:Name="SearchBox" Margin="5" Height="30" HorizontalAlignment="Stretch" />
                     </DockPanel>
                 </Grid>

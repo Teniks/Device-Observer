@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:Device_Observer"
         mc:Ignorable="d"
         Title="Device Observer" Height="450" Width="800">
-    <Grid>
+    <Grid Background="#252525">
         <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden"/>
     </Grid>
 </Window>

@@ -10,22 +10,12 @@ namespace Device_Observer.Models
         public DbSet<AccessRights> AccessRights { get; set; }
         public DbSet<AccessLogs> AccessLogs { get; set; }
         public DbSet<ListOfChanges> ListOfChanges { get; set; }
-        private ApplicationContext() : base("db_localEntities")
+        private ApplicationContext() : base("name=db_localEntities")
         {
 
         }
 
         private static ApplicationContext instance = new ApplicationContext();
         public static ApplicationContext Instance { get { return instance;  } }
-
-        public static void CreateContext()
-        {
-            instance = new ApplicationContext();
-        }
-
-        public static void DisposeContext()
-        {
-            instance?.Dispose();
-        }
     }
 }

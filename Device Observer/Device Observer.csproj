@@ -179,6 +179,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>au_dbModel.edmx</DependentUpon>
     </Compile>
+    <Compile Include="Models\BackupManager.cs" />
     <Compile Include="Models\db_localModel.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
