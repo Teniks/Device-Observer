@@ -1,5 +1,4 @@
 ﻿using Device_Observer.Models;
-using System;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Data.Entity;

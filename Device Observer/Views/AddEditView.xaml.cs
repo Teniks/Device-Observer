@@ -124,33 +124,33 @@ namespace Device_Observer.Views
                     case "Ответственные":
                         Users user = element as Users;
 
-                        user.FullNameUser = firstBox.Text;
-                        user.RoleUser = secondBox.Text;
+                        user.FullNameUser = firstBox.Text.Trim();
+                        user.RoleUser = secondBox.Text.Trim();
                         element = user;
                         onGoBack();
                         break;
                     case "Ресурсы":
                         Resources resource = element as Resources;
 
-                        resource.NameResource = firstBox.Text;
-                        resource.TypeResource = secondBox.Text;
-                        resource.DescriptionResource = thirdBox.Text;
+                        resource.NameResource = firstBox.Text.Trim();
+                        resource.TypeResource = secondBox.Text.Trim();
+                        resource.DescriptionResource = thirdBox.Text.Trim();
                         element = resource;
                         onGoBack();
                         break;
                     case "Права доступа":
                         AccessRights accessRights = element as AccessRights;
 
-                        accessRights.IdUser = ApplicationContext.Instance.Users.FirstOrDefault(x => x.FullNameUser.Equals(firstBox.Text)).IdUser;
-                        accessRights.IdResource = ApplicationContext.Instance.Resources.FirstOrDefault(x => x.NameResource.Equals(secondBox.Text)).IdResource;
-                        accessRights.Permission = thirdBox.Text;
+                        accessRights.IdUser = ApplicationContext.Instance.Users.FirstOrDefault(x => x.FullNameUser.Equals(firstBox.Text.Trim())).IdUser;
+                        accessRights.IdResource = ApplicationContext.Instance.Resources.FirstOrDefault(x => x.NameResource.Equals(secondBox.Text.Trim())).IdResource;
+                        accessRights.Permission = thirdBox.Text.Trim();
                         element = accessRights;
                         onGoBack();
                         break;
                     case "Пользователи":
                         UsersAU userAU = element as UsersAU;
 
-                        userAU.RoleUser = firstBox.Text;
+                        userAU.RoleUser = firstBox.Text.Trim();
                         element = userAU;
                         onGoBack();
                         break;

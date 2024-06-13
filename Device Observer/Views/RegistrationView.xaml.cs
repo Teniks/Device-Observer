@@ -21,7 +21,7 @@ namespace Device_Observer.Views
         {
             if (authorizationVM.Registration(LoginBox.Text, PasswordBox.Text, DetailsBox.Text) && authorizationVM.Role != null)
             {
-                MessageBox.Show("Успешно зарегистрирован!");
+                CustomMessageBox.Show("Успешно зарегистрирован!", false);
                 try
                 {
                     NavigationService.GoBack();

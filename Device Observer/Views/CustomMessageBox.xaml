@@ -1,0 +1,25 @@
+﻿<Window x:Class="Device_Observer.Views.CustomMessageBox"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Device_Observer.Views"
+        mc:Ignorable="d"
+        Title="CustomMessageBox"
+        Height="175"
+        Width="300"
+        WindowStyle="None">
+    
+    <Grid Background="#252525">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <TextBlock x:Name="TextBlock" Text="Ваше сообщение" Margin="10" Foreground="White"/>
+        <StackPanel x:Name="ButonPanel" Grid.Row="1">
+            <Button x:Name="YesButton" Click="YesButton_Click" Content="Да" Margin="5"/>
+            <Button x:Name="NoButton" Click="NoButton_Click" Content="Нет" Margin="5"/>
+        </StackPanel>
+        <Button x:Name="OkButton" Grid.Row="1" Click="OkButton_Click" Content="Ясно" Margin="5" Height="35" Width="100" Visibility="Collapsed"/>
+    </Grid>
+</Window>

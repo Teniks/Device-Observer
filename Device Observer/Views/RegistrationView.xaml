@@ -14,11 +14,11 @@
             <RowDefinition/>
         </Grid.RowDefinitions>
         <StackPanel MaxHeight="230" MaxWidth="300">
-            <TextBlock Text="Login:" Margin="10,2"/>
+            <TextBlock Text="Login:" Margin="10,2"  Foreground="White"/>
             <TextBox x:Name="LoginBox" Margin="10"/>
-            <TextBlock Text="Password:" Margin="10,2"/>
+            <TextBlock Text="Password:" Margin="10,2"  Foreground="White"/>
             <TextBox x:Name="PasswordBox" Margin="10"/>
-            <TextBlock Text="Details:" Margin="10,2"/>
+            <TextBlock Text="Details:" Margin="10,2" Foreground="White"/>
             <TextBox x:Name="DetailsBox" Margin="10"/>
             <Button x:Name="DetailsBtn" Click="RegistrationBtn_Click"  Content="Registration" Margin="10"/>
         </StackPanel>

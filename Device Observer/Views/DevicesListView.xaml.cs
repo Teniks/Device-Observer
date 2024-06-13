@@ -151,6 +151,7 @@ namespace Device_Observer.Views
                     IsEnabledBtns();
                     break;
                 case "Список изменений":
+                    listOfChangesVM.UpdateCollection();
                     DataTable.ItemsSource = listOfChangesVM.listOfChanges?.ToBindingList();
 
 
@@ -158,6 +159,7 @@ namespace Device_Observer.Views
                     DataTable.Columns.Add(new DataGridTextColumn { Header = "Детали", Binding = new Binding("Details") });
                     break;
                 case "Логи доступа":
+                    accessLogsVM.UpdateCollection();
                     DataTable.ItemsSource = accessLogsVM.accessLogs?.ToBindingList();
 
 
@@ -302,13 +304,17 @@ namespace Device_Observer.Views
                     }
                     break;
             }
-            UpdateTable();
             ShowTable();
             AddEditView.GoBack -= SaveAdd;
         }
 
-        private void RemoveBtn_Click(object sender, System.Windows.RoutedEventArgs e)
+        private void RemoveBtn_Click(object sender, RoutedEventArgs e)
         {
+            if(!CustomMessageBox.Show("Вы действительно хотите удалить элемент?"))
+            {
+                return;
+            }
+
             if(nameSelectedTable != null && DataTable.SelectedItem != null)
             {
                 switch (nameSelectedTable)
@@ -340,7 +346,6 @@ namespace Device_Observer.Views
                 }
 
                 ApplicationContext.Instance.SaveChanges();
-                UpdateTable();
                 ShowTable();
             }
         }
@@ -373,7 +378,6 @@ namespace Device_Observer.Views
                     break;
             }
 
-            UpdateTable();
             ShowTable();
             AddEditView.GoBack -= SaveUpdate;
         }

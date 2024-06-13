@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище db_localModelContainer" CdmEntityContainer="db_localEntities">
+    <EntitySetMapping Name="AccessLogs">
+      <EntityTypeMapping TypeName="db_localModel.AccessLogs">
+        <MappingFragment StoreEntitySet="AccessLogs">
+          <ScalarProperty Name="IdLog" ColumnName="IdLog" />
+          <ScalarProperty Name="TimeStampLog" ColumnName="TimeStampLog" />
+          <ScalarProperty Name="Details" ColumnName="Details" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AccessRights">
+      <EntityTypeMapping TypeName="db_localModel.AccessRights">
+        <MappingFragment StoreEntitySet="AccessRights">
+          <ScalarProperty Name="IdRight" ColumnName="IdRight" />
+          <ScalarProperty Name="IdUser" ColumnName="IdUser" />
+          <ScalarProperty Name="IdResource" ColumnName="IdResource" />
+          <ScalarProperty Name="Permission" ColumnName="Permission" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ListOfChanges">
+      <EntityTypeMapping TypeName="db_localModel.ListOfChanges">
+        <MappingFragment StoreEntitySet="ListOfChanges">
+          <ScalarProperty Name="IdChanges" ColumnName="IdChanges" />
+          <ScalarProperty Name="DateChanges" ColumnName="DateChanges" />
+          <ScalarProperty Name="Details" ColumnName="Details" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Resources">
+      <EntityTypeMapping TypeName="db_localModel.Resources">
+        <MappingFragment StoreEntitySet="Resources">
+          <ScalarProperty Name="IdResource" ColumnName="IdResource" />
+          <ScalarProperty Name="NameResource" ColumnName="NameResource" />
+          <ScalarProperty Name="TypeResource" ColumnName="TypeResource" />
+          <ScalarProperty Name="DescriptionResource" ColumnName="DescriptionResource" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="db_localModel.Users">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="IdUser" ColumnName="IdUser" />
+          <ScalarProperty Name="FullNameUser" ColumnName="FullNameUser" />
+          <ScalarProperty Name="RoleUser" ColumnName="RoleUser" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

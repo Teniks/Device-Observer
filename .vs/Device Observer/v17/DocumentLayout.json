@@ -1,19 +1,489 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Vtx\\source\\repos\\Device Observer\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E355C7CD-F6C5-4DD0-BA62-0906BD2FE6A1}|Device Observer\\Device Observer.csproj|c:\\users\\vtx\\source\\repos\\device observer\\device observer\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E355C7CD-F6C5-4DD0-BA62-0906BD2FE6A1}|Device Observer\\Device Observer.csproj|solutionrelative:device observer\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E355C7CD-F6C5-4DD0-BA62-0906BD2FE6A1}|Device Observer\\Device Observer.csproj|c:\\users\\vtx\\source\\repos\\device observer\\device observer\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E355C7CD-F6C5-4DD0-BA62-0906BD2FE6A1}|Device Observer\\Device Observer.csproj|solutionrelative:device observer\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E355C7CD-F6C5-4DD0-BA62-0906BD2FE6A1}|Device Observer\\Device Observer.csproj|c:\\users\\vtx\\source\\repos\\device observer\\device observer\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E355C7CD-F6C5-4DD0-BA62-0906BD2FE6A1}|Device Observer\\Device Observer.csproj|solutionrelative:device observer\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E355C7CD-F6C5-4DD0-BA62-0906BD2FE6A1}|Device Observer\\Device Observer.csproj|c:\\users\\vtx\\source\\repos\\device observer\\device observer\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E355C7CD-F6C5-4DD0-BA62-0906BD2FE6A1}|Device Observer\\Device Observer.csproj|solutionrelative:device observer\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E355C7CD-F6C5-4DD0-BA62-0906BD2FE6A1}|Device Observer\\Device Observer.csproj|c:\\users\\vtx\\source\\repos\\device observer\\device observer\\views\\registrationview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E355C7CD-F6C5-4DD0-BA62-0906BD2FE6A1}|Device Observer\\Device Observer.csproj|solutionrelative:device observer\\views\\registrationview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E355C7CD-F6C5-4DD0-BA62-0906BD2FE6A1}|Device Observer\\Device Observer.csproj|c:\\users\\vtx\\source\\repos\\device observer\\device observer\\views\\registrationview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E355C7CD-F6C5-4DD0-BA62-0906BD2FE6A1}|Device Observer\\Device Observer.csproj|solutionrelative:device observer\\views\\registrationview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E355C7CD-F6C5-4DD0-BA62-0906BD2FE6A1}|Device Observer\\Device Observer.csproj|c:\\users\\vtx\\source\\repos\\device observer\\device observer\\views\\deviceslistview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E355C7CD-F6C5-4DD0-BA62-0906BD2FE6A1}|Device Observer\\Device Observer.csproj|solutionrelative:device observer\\views\\deviceslistview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E355C7CD-F6C5-4DD0-BA62-0906BD2FE6A1}|Device Observer\\Device Observer.csproj|c:\\users\\vtx\\source\\repos\\device observer\\device observer\\views\\deviceslistview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E355C7CD-F6C5-4DD0-BA62-0906BD2FE6A1}|Device Observer\\Device Observer.csproj|solutionrelative:device observer\\views\\deviceslistview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E355C7CD-F6C5-4DD0-BA62-0906BD2FE6A1}|Device Observer\\Device Observer.csproj|c:\\users\\vtx\\source\\repos\\device observer\\device observer\\views\\custommessagebox.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E355C7CD-F6C5-4DD0-BA62-0906BD2FE6A1}|Device Observer\\Device Observer.csproj|solutionrelative:device observer\\views\\custommessagebox.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E355C7CD-F6C5-4DD0-BA62-0906BD2FE6A1}|Device Observer\\Device Observer.csproj|c:\\users\\vtx\\source\\repos\\device observer\\device observer\\views\\custommessagebox.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E355C7CD-F6C5-4DD0-BA62-0906BD2FE6A1}|Device Observer\\Device Observer.csproj|solutionrelative:device observer\\views\\custommessagebox.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E355C7CD-F6C5-4DD0-BA62-0906BD2FE6A1}|Device Observer\\Device Observer.csproj|c:\\users\\vtx\\source\\repos\\device observer\\device observer\\views\\authorizationview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E355C7CD-F6C5-4DD0-BA62-0906BD2FE6A1}|Device Observer\\Device Observer.csproj|solutionrelative:device observer\\views\\authorizationview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E355C7CD-F6C5-4DD0-BA62-0906BD2FE6A1}|Device Observer\\Device Observer.csproj|c:\\users\\vtx\\source\\repos\\device observer\\device observer\\views\\authorizationview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E355C7CD-F6C5-4DD0-BA62-0906BD2FE6A1}|Device Observer\\Device Observer.csproj|solutionrelative:device observer\\views\\authorizationview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E355C7CD-F6C5-4DD0-BA62-0906BD2FE6A1}|Device Observer\\Device Observer.csproj|c:\\users\\vtx\\source\\repos\\device observer\\device observer\\views\\addeditview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E355C7CD-F6C5-4DD0-BA62-0906BD2FE6A1}|Device Observer\\Device Observer.csproj|solutionrelative:device observer\\views\\addeditview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E355C7CD-F6C5-4DD0-BA62-0906BD2FE6A1}|Device Observer\\Device Observer.csproj|c:\\users\\vtx\\source\\repos\\device observer\\device observer\\views\\addeditview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E355C7CD-F6C5-4DD0-BA62-0906BD2FE6A1}|Device Observer\\Device Observer.csproj|solutionrelative:device observer\\views\\addeditview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E355C7CD-F6C5-4DD0-BA62-0906BD2FE6A1}|Device Observer\\Device Observer.csproj|c:\\users\\vtx\\source\\repos\\device observer\\device observer\\viewmodels\\usersvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E355C7CD-F6C5-4DD0-BA62-0906BD2FE6A1}|Device Observer\\Device Observer.csproj|solutionrelative:device observer\\viewmodels\\usersvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E355C7CD-F6C5-4DD0-BA62-0906BD2FE6A1}|Device Observer\\Device Observer.csproj|c:\\users\\vtx\\source\\repos\\device observer\\device observer\\viewmodels\\usersauvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E355C7CD-F6C5-4DD0-BA62-0906BD2FE6A1}|Device Observer\\Device Observer.csproj|solutionrelative:device observer\\viewmodels\\usersauvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E355C7CD-F6C5-4DD0-BA62-0906BD2FE6A1}|Device Observer\\Device Observer.csproj|c:\\users\\vtx\\source\\repos\\device observer\\device observer\\viewmodels\\resourcesvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E355C7CD-F6C5-4DD0-BA62-0906BD2FE6A1}|Device Observer\\Device Observer.csproj|solutionrelative:device observer\\viewmodels\\resourcesvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E355C7CD-F6C5-4DD0-BA62-0906BD2FE6A1}|Device Observer\\Device Observer.csproj|c:\\users\\vtx\\source\\repos\\device observer\\device observer\\viewmodels\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E355C7CD-F6C5-4DD0-BA62-0906BD2FE6A1}|Device Observer\\Device Observer.csproj|solutionrelative:device observer\\viewmodels\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E355C7CD-F6C5-4DD0-BA62-0906BD2FE6A1}|Device Observer\\Device Observer.csproj|c:\\users\\vtx\\source\\repos\\device observer\\device observer\\viewmodels\\listofchangesvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E355C7CD-F6C5-4DD0-BA62-0906BD2FE6A1}|Device Observer\\Device Observer.csproj|solutionrelative:device observer\\viewmodels\\listofchangesvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E355C7CD-F6C5-4DD0-BA62-0906BD2FE6A1}|Device Observer\\Device Observer.csproj|c:\\users\\vtx\\source\\repos\\device observer\\device observer\\viewmodels\\iviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E355C7CD-F6C5-4DD0-BA62-0906BD2FE6A1}|Device Observer\\Device Observer.csproj|solutionrelative:device observer\\viewmodels\\iviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E355C7CD-F6C5-4DD0-BA62-0906BD2FE6A1}|Device Observer\\Device Observer.csproj|c:\\users\\vtx\\source\\repos\\device observer\\device observer\\viewmodels\\authorizationvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E355C7CD-F6C5-4DD0-BA62-0906BD2FE6A1}|Device Observer\\Device Observer.csproj|solutionrelative:device observer\\viewmodels\\authorizationvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E355C7CD-F6C5-4DD0-BA62-0906BD2FE6A1}|Device Observer\\Device Observer.csproj|c:\\users\\vtx\\source\\repos\\device observer\\device observer\\viewmodels\\accessrightsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E355C7CD-F6C5-4DD0-BA62-0906BD2FE6A1}|Device Observer\\Device Observer.csproj|solutionrelative:device observer\\viewmodels\\accessrightsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E355C7CD-F6C5-4DD0-BA62-0906BD2FE6A1}|Device Observer\\Device Observer.csproj|c:\\users\\vtx\\source\\repos\\device observer\\device observer\\viewmodels\\accesslogsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E355C7CD-F6C5-4DD0-BA62-0906BD2FE6A1}|Device Observer\\Device Observer.csproj|solutionrelative:device observer\\viewmodels\\accesslogsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E355C7CD-F6C5-4DD0-BA62-0906BD2FE6A1}|Device Observer\\Device Observer.csproj|c:\\users\\vtx\\source\\repos\\device observer\\device observer\\models\\hashing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E355C7CD-F6C5-4DD0-BA62-0906BD2FE6A1}|Device Observer\\Device Observer.csproj|solutionrelative:device observer\\models\\hashing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E355C7CD-F6C5-4DD0-BA62-0906BD2FE6A1}|Device Observer\\Device Observer.csproj|c:\\users\\vtx\\source\\repos\\device observer\\device observer\\models\\export.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E355C7CD-F6C5-4DD0-BA62-0906BD2FE6A1}|Device Observer\\Device Observer.csproj|solutionrelative:device observer\\models\\export.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E355C7CD-F6C5-4DD0-BA62-0906BD2FE6A1}|Device Observer\\Device Observer.csproj|c:\\users\\vtx\\source\\repos\\device observer\\device observer\\models\\backupmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E355C7CD-F6C5-4DD0-BA62-0906BD2FE6A1}|Device Observer\\Device Observer.csproj|solutionrelative:device observer\\models\\backupmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E355C7CD-F6C5-4DD0-BA62-0906BD2FE6A1}|Device Observer\\Device Observer.csproj|c:\\users\\vtx\\source\\repos\\device observer\\device observer\\models\\aucontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E355C7CD-F6C5-4DD0-BA62-0906BD2FE6A1}|Device Observer\\Device Observer.csproj|solutionrelative:device observer\\models\\aucontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E355C7CD-F6C5-4DD0-BA62-0906BD2FE6A1}|Device Observer\\Device Observer.csproj|c:\\users\\vtx\\source\\repos\\device observer\\device observer\\models\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E355C7CD-F6C5-4DD0-BA62-0906BD2FE6A1}|Device Observer\\Device Observer.csproj|solutionrelative:device observer\\models\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedHeight": 192,
-          "SelectedChildIndex": -1,
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Vtx\\source\\repos\\Device Observer\\Device Observer\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Device Observer\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Vtx\\source\\repos\\Device Observer\\Device Observer\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Device Observer\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T19:03:14.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Vtx\\source\\repos\\Device Observer\\Device Observer\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Device Observer\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Vtx\\source\\repos\\Device Observer\\Device Observer\\MainWindow.xaml",
+              "RelativeToolTip": "Device Observer\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-13T19:02:48.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Vtx\\source\\repos\\Device Observer\\Device Observer\\App.xaml.cs",
+              "RelativeDocumentMoniker": "Device Observer\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\Vtx\\source\\repos\\Device Observer\\Device Observer\\App.xaml.cs",
+              "RelativeToolTip": "Device Observer\\App.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T19:02:44.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\Vtx\\source\\repos\\Device Observer\\Device Observer\\App.xaml",
+              "RelativeDocumentMoniker": "Device Observer\\App.xaml",
+              "ToolTip": "C:\\Users\\Vtx\\source\\repos\\Device Observer\\Device Observer\\App.xaml",
+              "RelativeToolTip": "Device Observer\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-13T19:02:25.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DevicesListView.xaml",
+              "DocumentMoniker": "C:\\Users\\Vtx\\source\\repos\\Device Observer\\Device Observer\\Views\\DevicesListView.xaml",
+              "RelativeDocumentMoniker": "Device Observer\\Views\\DevicesListView.xaml",
+              "ToolTip": "C:\\Users\\Vtx\\source\\repos\\Device Observer\\Device Observer\\Views\\DevicesListView.xaml",
+              "RelativeToolTip": "Device Observer\\Views\\DevicesListView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-13T18:59:39.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AuthorizationView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Vtx\\source\\repos\\Device Observer\\Device Observer\\Views\\AuthorizationView.xaml.cs",
+              "RelativeDocumentMoniker": "Device Observer\\Views\\AuthorizationView.xaml.cs",
+              "ToolTip": "C:\\Users\\Vtx\\source\\repos\\Device Observer\\Device Observer\\Views\\AuthorizationView.xaml.cs",
+              "RelativeToolTip": "Device Observer\\Views\\AuthorizationView.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T18:57:44.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AuthorizationView.xaml",
+              "DocumentMoniker": "C:\\Users\\Vtx\\source\\repos\\Device Observer\\Device Observer\\Views\\AuthorizationView.xaml",
+              "RelativeDocumentMoniker": "Device Observer\\Views\\AuthorizationView.xaml",
+              "ToolTip": "C:\\Users\\Vtx\\source\\repos\\Device Observer\\Device Observer\\Views\\AuthorizationView.xaml",
+              "RelativeToolTip": "Device Observer\\Views\\AuthorizationView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-13T18:56:59.91Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CustomMessageBox.xaml",
+              "DocumentMoniker": "C:\\Users\\Vtx\\source\\repos\\Device Observer\\Device Observer\\Views\\CustomMessageBox.xaml",
+              "RelativeDocumentMoniker": "Device Observer\\Views\\CustomMessageBox.xaml",
+              "ToolTip": "C:\\Users\\Vtx\\source\\repos\\Device Observer\\Device Observer\\Views\\CustomMessageBox.xaml",
+              "RelativeToolTip": "Device Observer\\Views\\CustomMessageBox.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-13T16:58:07.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CustomMessageBox.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Vtx\\source\\repos\\Device Observer\\Device Observer\\Views\\CustomMessageBox.xaml.cs",
+              "RelativeDocumentMoniker": "Device Observer\\Views\\CustomMessageBox.xaml.cs",
+              "ToolTip": "C:\\Users\\Vtx\\source\\repos\\Device Observer\\Device Observer\\Views\\CustomMessageBox.xaml.cs",
+              "RelativeToolTip": "Device Observer\\Views\\CustomMessageBox.xaml.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAmwDQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T17:02:27.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DevicesListView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Vtx\\source\\repos\\Device Observer\\Device Observer\\Views\\DevicesListView.xaml.cs",
+              "RelativeDocumentMoniker": "Device Observer\\Views\\DevicesListView.xaml.cs",
+              "ToolTip": "C:\\Users\\Vtx\\source\\repos\\Device Observer\\Device Observer\\Views\\DevicesListView.xaml.cs",
+              "RelativeToolTip": "Device Observer\\Views\\DevicesListView.xaml.cs",
+              "ViewState": "AQIAAI0BAAAAAAAAAAAYwK0BAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T17:07:30.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RegistrationView.xaml",
+              "DocumentMoniker": "C:\\Users\\Vtx\\source\\repos\\Device Observer\\Device Observer\\Views\\RegistrationView.xaml",
+              "RelativeDocumentMoniker": "Device Observer\\Views\\RegistrationView.xaml",
+              "ToolTip": "C:\\Users\\Vtx\\source\\repos\\Device Observer\\Device Observer\\Views\\RegistrationView.xaml",
+              "RelativeToolTip": "Device Observer\\Views\\RegistrationView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-13T16:28:35.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RegistrationView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Vtx\\source\\repos\\Device Observer\\Device Observer\\Views\\RegistrationView.xaml.cs",
+              "RelativeDocumentMoniker": "Device Observer\\Views\\RegistrationView.xaml.cs",
+              "ToolTip": "C:\\Users\\Vtx\\source\\repos\\Device Observer\\Device Observer\\Views\\RegistrationView.xaml.cs",
+              "RelativeToolTip": "Device Observer\\Views\\RegistrationView.xaml.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAYwDQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T17:27:03.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UsersVM.cs",
+              "DocumentMoniker": "C:\\Users\\Vtx\\source\\repos\\Device Observer\\Device Observer\\ViewModels\\UsersVM.cs",
+              "RelativeDocumentMoniker": "Device Observer\\ViewModels\\UsersVM.cs",
+              "ToolTip": "C:\\Users\\Vtx\\source\\repos\\Device Observer\\Device Observer\\ViewModels\\UsersVM.cs",
+              "RelativeToolTip": "Device Observer\\ViewModels\\UsersVM.cs",
+              "ViewState": "AQIAAHcAAAAAAAAAAAAYwIcAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T16:40:48.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UsersAUVM.cs",
+              "DocumentMoniker": "C:\\Users\\Vtx\\source\\repos\\Device Observer\\Device Observer\\ViewModels\\UsersAUVM.cs",
+              "RelativeDocumentMoniker": "Device Observer\\ViewModels\\UsersAUVM.cs",
+              "ToolTip": "C:\\Users\\Vtx\\source\\repos\\Device Observer\\Device Observer\\ViewModels\\UsersAUVM.cs",
+              "RelativeToolTip": "Device Observer\\ViewModels\\UsersAUVM.cs",
+              "ViewState": "AQIAAHMAAAAAAAAAAAAYwJMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T18:53:39.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ResourcesVM.cs",
+              "DocumentMoniker": "C:\\Users\\Vtx\\source\\repos\\Device Observer\\Device Observer\\ViewModels\\ResourcesVM.cs",
+              "RelativeDocumentMoniker": "Device Observer\\ViewModels\\ResourcesVM.cs",
+              "ToolTip": "C:\\Users\\Vtx\\source\\repos\\Device Observer\\Device Observer\\ViewModels\\ResourcesVM.cs",
+              "RelativeToolTip": "Device Observer\\ViewModels\\ResourcesVM.cs",
+              "ViewState": "AQIAAHYAAAAAAAAAAAAYwJYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T18:53:09.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Vtx\\source\\repos\\Device Observer\\Device Observer\\ViewModels\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "Device Observer\\ViewModels\\RelayCommand.cs",
+              "ToolTip": "C:\\Users\\Vtx\\source\\repos\\Device Observer\\Device Observer\\ViewModels\\RelayCommand.cs",
+              "RelativeToolTip": "Device Observer\\ViewModels\\RelayCommand.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAmwCEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T18:52:49.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AddEditView.xaml",
+              "DocumentMoniker": "C:\\Users\\Vtx\\source\\repos\\Device Observer\\Device Observer\\Views\\AddEditView.xaml",
+              "RelativeDocumentMoniker": "Device Observer\\Views\\AddEditView.xaml",
+              "ToolTip": "C:\\Users\\Vtx\\source\\repos\\Device Observer\\Device Observer\\Views\\AddEditView.xaml",
+              "RelativeToolTip": "Device Observer\\Views\\AddEditView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-13T16:28:40.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ListOfChangesVM.cs",
+              "DocumentMoniker": "C:\\Users\\Vtx\\source\\repos\\Device Observer\\Device Observer\\ViewModels\\ListOfChangesVM.cs",
+              "RelativeDocumentMoniker": "Device Observer\\ViewModels\\ListOfChangesVM.cs",
+              "ToolTip": "C:\\Users\\Vtx\\source\\repos\\Device Observer\\Device Observer\\ViewModels\\ListOfChangesVM.cs",
+              "RelativeToolTip": "Device Observer\\ViewModels\\ListOfChangesVM.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAwFsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T18:52:26.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Vtx\\source\\repos\\Device Observer\\Device Observer\\ViewModels\\IViewModel.cs",
+              "RelativeDocumentMoniker": "Device Observer\\ViewModels\\IViewModel.cs",
+              "ToolTip": "C:\\Users\\Vtx\\source\\repos\\Device Observer\\Device Observer\\ViewModels\\IViewModel.cs",
+              "RelativeToolTip": "Device Observer\\ViewModels\\IViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T18:51:55.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AddEditView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Vtx\\source\\repos\\Device Observer\\Device Observer\\Views\\AddEditView.xaml.cs",
+              "RelativeDocumentMoniker": "Device Observer\\Views\\AddEditView.xaml.cs",
+              "ToolTip": "C:\\Users\\Vtx\\source\\repos\\Device Observer\\Device Observer\\Views\\AddEditView.xaml.cs",
+              "RelativeToolTip": "Device Observer\\Views\\AddEditView.xaml.cs",
+              "ViewState": "AQIAAJMAAAAAAAAAAAAYwLMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T18:20:35.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AuthorizationVM.cs",
+              "DocumentMoniker": "C:\\Users\\Vtx\\source\\repos\\Device Observer\\Device Observer\\ViewModels\\AuthorizationVM.cs",
+              "RelativeDocumentMoniker": "Device Observer\\ViewModels\\AuthorizationVM.cs",
+              "ToolTip": "C:\\Users\\Vtx\\source\\repos\\Device Observer\\Device Observer\\ViewModels\\AuthorizationVM.cs",
+              "RelativeToolTip": "Device Observer\\ViewModels\\AuthorizationVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T18:51:33.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AccessRightsVM.cs",
+              "DocumentMoniker": "C:\\Users\\Vtx\\source\\repos\\Device Observer\\Device Observer\\ViewModels\\AccessRightsVM.cs",
+              "RelativeDocumentMoniker": "Device Observer\\ViewModels\\AccessRightsVM.cs",
+              "ToolTip": "C:\\Users\\Vtx\\source\\repos\\Device Observer\\Device Observer\\ViewModels\\AccessRightsVM.cs",
+              "RelativeToolTip": "Device Observer\\ViewModels\\AccessRightsVM.cs",
+              "ViewState": "AQIAAIAAAAAAAAAAAAAYwKAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T18:51:05.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AccessLogsVM.cs",
+              "DocumentMoniker": "C:\\Users\\Vtx\\source\\repos\\Device Observer\\Device Observer\\ViewModels\\AccessLogsVM.cs",
+              "RelativeDocumentMoniker": "Device Observer\\ViewModels\\AccessLogsVM.cs",
+              "ToolTip": "C:\\Users\\Vtx\\source\\repos\\Device Observer\\Device Observer\\ViewModels\\AccessLogsVM.cs",
+              "RelativeToolTip": "Device Observer\\ViewModels\\AccessLogsVM.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAwFsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T18:49:41.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Hashing.cs",
+              "DocumentMoniker": "C:\\Users\\Vtx\\source\\repos\\Device Observer\\Device Observer\\Models\\Hashing.cs",
+              "RelativeDocumentMoniker": "Device Observer\\Models\\Hashing.cs",
+              "ToolTip": "C:\\Users\\Vtx\\source\\repos\\Device Observer\\Device Observer\\Models\\Hashing.cs",
+              "RelativeToolTip": "Device Observer\\Models\\Hashing.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T18:48:47.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Export.cs",
+              "DocumentMoniker": "C:\\Users\\Vtx\\source\\repos\\Device Observer\\Device Observer\\Models\\Export.cs",
+              "RelativeDocumentMoniker": "Device Observer\\Models\\Export.cs",
+              "ToolTip": "C:\\Users\\Vtx\\source\\repos\\Device Observer\\Device Observer\\Models\\Export.cs",
+              "RelativeToolTip": "Device Observer\\Models\\Export.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAYwCcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T18:48:08.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "BackupManager.cs",
+              "DocumentMoniker": "C:\\Users\\Vtx\\source\\repos\\Device Observer\\Device Observer\\Models\\BackupManager.cs",
+              "RelativeDocumentMoniker": "Device Observer\\Models\\BackupManager.cs",
+              "ToolTip": "C:\\Users\\Vtx\\source\\repos\\Device Observer\\Device Observer\\Models\\BackupManager.cs",
+              "RelativeToolTip": "Device Observer\\Models\\BackupManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T18:47:41.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ApplicationContext.cs",
+              "DocumentMoniker": "C:\\Users\\Vtx\\source\\repos\\Device Observer\\Device Observer\\Models\\ApplicationContext.cs",
+              "RelativeDocumentMoniker": "Device Observer\\Models\\ApplicationContext.cs",
+              "ToolTip": "C:\\Users\\Vtx\\source\\repos\\Device Observer\\Device Observer\\Models\\ApplicationContext.cs",
+              "RelativeToolTip": "Device Observer\\Models\\ApplicationContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T18:45:40.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AUContext.cs",
+              "DocumentMoniker": "C:\\Users\\Vtx\\source\\repos\\Device Observer\\Device Observer\\Models\\AUContext.cs",
+              "RelativeDocumentMoniker": "Device Observer\\Models\\AUContext.cs",
+              "ToolTip": "C:\\Users\\Vtx\\source\\repos\\Device Observer\\Device Observer\\Models\\AUContext.cs",
+              "RelativeToolTip": "Device Observer\\Models\\AUContext.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAA3wEsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T16:29:30.987Z",
+              "EditorCaption": ""
             }
           ]
         }

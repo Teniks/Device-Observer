@@ -52,3 +52,5 @@ C:\Users\Vtx\source\repos\Device Observer\Device Observer\bin\Debug\System.Memor
 C:\Users\Vtx\source\repos\Device Observer\Device Observer\bin\Debug\System.Numerics.Vectors.xml
 C:\Users\Vtx\source\repos\Device Observer\Device Observer\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\Vtx\source\repos\Device Observer\Device Observer\obj\Debug\App.baml
+C:\Users\Vtx\source\repos\Device Observer\Device Observer\obj\Debug\Views\CustomMessageBox.g.cs
+C:\Users\Vtx\source\repos\Device Observer\Device Observer\obj\Debug\Views\CustomMessageBox.baml
