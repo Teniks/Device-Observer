@@ -11,6 +11,7 @@ namespace Device_Observer.Models
                 $@"BACKUP DATABASE [{Directory.GetCurrentDirectory()}\data\db_local.mdf] TO  " +
                 $@"DISK = N'{backupFilePath}' WITH NOFORMAT, NOINIT,  " +
                 $@"NAME = N'{backupFilePath}', SKIP, NOREWIND, NOUNLOAD,  STATS = 10");
+
         }
 
         public static void RestoreDatabase(string backupFilePath)
