@@ -117,46 +117,90 @@ namespace Device_Observer.Views
 
         private void Save_Click(object sender, System.Windows.RoutedEventArgs e)
         {
+            bool isValid = true;
             try
             {
                 switch (nameTable)
                 {
                     case "Ответственные":
-                        Users user = element as Users;
-
-                        user.FullNameUser = firstBox.Text.Trim();
-                        user.RoleUser = secondBox.Text.Trim();
+                        Users user = new Users
+                        {
+                            FullNameUser = firstBox.Text.Trim(),
+                            RoleUser = secondBox.Text.Trim()
+                        };
                         element = user;
-                        onGoBack();
+
+                        if (firstBox.Text.Trim() == "" && secondBox.Text.Trim() == "")
+                        {
+                            isValid = false;
+                            MessageBox.Show("Вы оставили пустые значения");
+                        }
                         break;
                     case "Ресурсы":
-                        Resources resource = element as Resources;
-
-                        resource.NameResource = firstBox.Text.Trim();
-                        resource.TypeResource = secondBox.Text.Trim();
-                        resource.DescriptionResource = thirdBox.Text.Trim();
+                        Resources resource = new Resources
+                        {
+                            NameResource = firstBox.Text.Trim(),
+                            TypeResource = secondBox.Text.Trim(),
+                            DescriptionResource = thirdBox.Text.Trim()
+                        };
                         element = resource;
-                        onGoBack();
+
+
+                        if (firstBox.Text.Trim() == "" && secondBox.Text.Trim() == "")
+                        {
+                            isValid = false;
+                            MessageBox.Show("Вы оставили пустые значения");
+                        }
                         break;
                     case "Права доступа":
-                        AccessRights accessRights = element as AccessRights;
+                        AccessRights accessRights = null;
+                        
+                        try
+                        {
+                            accessRights = new AccessRights
+                            {
+                                IdUser = ApplicationContext.Instance.Users.FirstOrDefault(x => x.FullNameUser.Equals(firstBox.Text.Trim())).IdUser,
+                                IdResource = ApplicationContext.Instance.Resources.FirstOrDefault(x => x.NameResource.Equals(secondBox.Text.Trim())).IdResource,
+                                Permission = thirdBox.Text.Trim()
+                            };
+                        }
+                        catch
+                        {
+                            isValid = false;
+                            MessageBox.Show("Не удалось найти необходимую запись");
+                        }
 
-                        accessRights.IdUser = ApplicationContext.Instance.Users.FirstOrDefault(x => x.FullNameUser.Equals(firstBox.Text.Trim())).IdUser;
-                        accessRights.IdResource = ApplicationContext.Instance.Resources.FirstOrDefault(x => x.NameResource.Equals(secondBox.Text.Trim())).IdResource;
-                        accessRights.Permission = thirdBox.Text.Trim();
-                        element = accessRights;
-                        onGoBack();
+                        if (accessRights != null)
+                        {
+                            element = accessRights;
+                        }
+
+                        if (firstBox.Text.Trim() == "" && secondBox.Text.Trim() == "" && thirdBox.Text.Trim() == "")
+                        {
+                            isValid = false;
+                            MessageBox.Show("Вы оставили пустые значения");
+                        }
                         break;
                     case "Пользователи":
-                        UsersAU userAU = element as UsersAU;
-
-                        userAU.RoleUser = firstBox.Text.Trim();
+                        UsersAU userAU = new UsersAU
+                        {
+                            RoleUser = firstBox.Text.Trim()
+                        };
                         element = userAU;
-                        onGoBack();
+
+                        if (firstBox.Text.Trim() == "")
+                        {
+                            isValid = false;
+                            MessageBox.Show("Вы оставили пустые значения");
+                        }
                         break;
                 }
 
-                NavigationService.GoBack();
+                if (isValid)
+                {
+                    onGoBack();
+                    NavigationService.GoBack();
+                }
             }
             catch
             {

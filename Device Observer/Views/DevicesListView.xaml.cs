@@ -4,6 +4,7 @@ using Microsoft.Win32;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
@@ -35,7 +36,7 @@ namespace Device_Observer.Views
             SearchBox.TextChanged += OnTextChanged;
             TableNamesList.SelectionChanged += ListSelectionChanged;
             TableNamesList.Items.Clear();
-            TableNamesList.ItemsSource = new List<string> { "Ответственные", "Ресурсы", "Права доступа", "Количество типов ресурсов" };
+            TableNamesList.ItemsSource = new List<string> { "Ответственные", "Ресурсы", "Права доступа", "Указание прав", "Количество типов ресурсов" };
 
             if (AUContext.Role != null && AUContext.Role.Equals("Admin"))
             {
@@ -43,7 +44,7 @@ namespace Device_Observer.Views
                 listOfChangesVM = new ListOfChangesVM();
                 usersAUVM = new UsersAUVM();
 
-                TableNamesList.ItemsSource = new List<string> { "Ответственные", "Ресурсы", "Права доступа", "Список изменений", "Логи доступа", "Пользователи", "Количество типов ресурсов" };
+                TableNamesList.ItemsSource = new List<string> { "Ответственные", "Ресурсы", "Права доступа", "Указание прав", "Список изменений", "Логи доступа", "Пользователи", "Количество типов ресурсов" };
 
                 BackupPanel.Visibility = Visibility.Visible;
                 BackupBtn.Click += delegate (object sender, RoutedEventArgs e)
@@ -177,8 +178,6 @@ namespace Device_Observer.Views
                         IsEnabledBtns();
                     break;
                 case "Количество типов ресурсов":
-                    DataTable.ItemsSource = null;
-                    DataTable.Items.Clear();
                     DataTable.ItemsSource = resourcesVM.resources.GroupBy(g => g.TypeResource).Select(s => new 
                     {
                         Type = s.Key, 
@@ -188,6 +187,14 @@ namespace Device_Observer.Views
 
                     DataTable.Columns.Add(new DataGridTextColumn { Header = "Тип", Binding = new Binding("Type") });
                     DataTable.Columns.Add(new DataGridTextColumn { Header = "Количество", Binding = new Binding("Count") });
+                    break;
+                case "Указание прав":
+                    DataTable.ItemsSource = ApplicationContext.Instance.QuerySQL().ItemsSource;
+
+                    DataTable.Columns.Add(new DataGridTextColumn { Header = "ФИО", Binding = new Binding("FullNameUser") });
+                    DataTable.Columns.Add(new DataGridTextColumn { Header = "Название ресурса", Binding = new Binding("NameResource") });
+                    DataTable.Columns.Add(new DataGridTextColumn { Header = "Тип ресурса", Binding = new Binding("TypeResource") });
+                    DataTable.Columns.Add(new DataGridTextColumn { Header = "Дозволения", Binding = new Binding("Permission") });
                     break;
             }
         }
@@ -261,6 +268,9 @@ namespace Device_Observer.Views
                     break;
                 case "Пользователи":
                     usersAUVM.UpdateCollection();
+                    break;
+                case "Указание прав":
+                    DataTable.ItemsSource = ApplicationContext.Instance.QuerySQL().ItemsSource;
                     break;
             }
         }

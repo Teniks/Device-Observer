@@ -19,21 +19,28 @@ namespace Device_Observer.Views
 
         private void RegistrationBtn_Click(object sender, RoutedEventArgs e)
         {
-            if (authorizationVM.Registration(LoginBox.Text, PasswordBox.Text, DetailsBox.Text) && authorizationVM.Role != null)
+            if (LoginBox.Text.Trim() != "" && PasswordBox.Text.Trim() != "")
             {
-                CustomMessageBox.Show("Успешно зарегистрирован!", false);
-                try
+                if (authorizationVM.Registration(LoginBox.Text, PasswordBox.Text, DetailsBox.Text) && authorizationVM.Role != null)
                 {
-                    NavigationService.GoBack();
-                }
-                catch
-                {
+                    CustomMessageBox.Show("Успешно зарегистрирован!", false);
+                    try
+                    {
+                        NavigationService.GoBack();
+                    }
+                    catch
+                    {
 
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Регистрация не удалась!");
                 }
             }
             else
             {
-                MessageBox.Show("Регистрация не удалась!");
+                MessageBox.Show("Вы оставили пустые значения!");
             }
         }
 

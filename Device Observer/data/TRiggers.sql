@@ -3,12 +3,12 @@ after UPDATE
 as
 begin
 	insert into ListOfChanges(Details)
-	select 'Модифицирована запись в USers: где было IdUser = ' + cast(deleted.IdUser as nvarchar(max)) +
-			' FullNameUser = ' + deleted.FullNameUser +
-			' RoleUser = ' + deleted.RoleUser +
-			' стало IdUser = ' + cast(inserted.IdUser as nvarchar(max)) +
-			' FullNameUser = ' + inserted.FullNameUser +
-			' RoleUser = ' + inserted.RoleUser
+	select N'Модифицирована запись в USers: где было IdUser = ' + cast(deleted.IdUser as nvarchar(max)) +
+			N' FullNameUser = ' + deleted.FullNameUser +
+			N' RoleUser = ' + deleted.RoleUser +
+			N' стало IdUser = ' + cast(inserted.IdUser as nvarchar(max)) +
+			N' FullNameUser = ' + inserted.FullNameUser +
+			N' RoleUser = ' + inserted.RoleUser
 			from deleted join inserted on deleted.IdUser = inserted.IdUser
 end;
 go
@@ -17,9 +17,9 @@ after DELETE
 as
 begin
 	insert into ListOfChanges(Details)
-	select 'Удалена запись в USers: IdUser = ' + cast(deleted.IdUser as nvarchar(max)) +
-			' FullNameUser = ' + deleted.FullNameUser +
-			' RoleUser = ' + deleted.RoleUser
+	select N'Удалена запись в USers: IdUser = ' + cast(deleted.IdUser as nvarchar(max)) +
+			N' FullNameUser = ' + deleted.FullNameUser +
+			N' RoleUser = ' + deleted.RoleUser
 			from deleted
 end;
 go
@@ -28,9 +28,9 @@ after INSERT
 as
 begin
 	insert into ListOfChanges(Details)
-	select 'Добавлена запись в USers: IdUser = ' + cast(inserted.IdUser as nvarchar(max)) +
-			' FullNameUser = ' + inserted.FullNameUser +
-			' RoleUser = ' + inserted.RoleUser
+	select N'Добавлена запись в USers: IdUser = ' + cast(inserted.IdUser as nvarchar(max)) +
+			N' FullNameUser = ' + inserted.FullNameUser +
+			N' RoleUser = ' + inserted.RoleUser
 			from inserted
 end;
 
@@ -41,14 +41,14 @@ after UPDATE
 as
 begin
 	insert into ListOfChanges(Details)
-	select 'Модифицирована запись в Resources: где было IdResource = ' + cast(deleted.IdResource as nvarchar(max)) +
-			' NameResource = ' + deleted.NameResource +
-			' TypeResource = ' + deleted.TypeResource +
-			' DescriptionResource = ' + deleted.DescriptionResource +
-			' стало  IdResource = ' + cast(deleted.IdResource as nvarchar(max)) +
-			' NameResource = ' + deleted.NameResource +
-			' TypeResource = ' + deleted.TypeResource +
-			' DescriptionResource = ' + deleted.DescriptionResource
+	select N'Модифицирована запись в Resources: где было IdResource = ' + cast(deleted.IdResource as nvarchar(max)) +
+			N' NameResource = ' + deleted.NameResource +
+			N' TypeResource = ' + deleted.TypeResource +
+			N' DescriptionResource = ' + deleted.DescriptionResource +
+			N' стало  IdResource = ' + cast(deleted.IdResource as nvarchar(max)) +
+			N' NameResource = ' + deleted.NameResource +
+			N' TypeResource = ' + deleted.TypeResource +
+			N' DescriptionResource = ' + deleted.DescriptionResource
 			from deleted join inserted on deleted.IdResource = inserted.IdResource
 end;
 go
@@ -57,10 +57,10 @@ after DELETE
 as
 begin
 	insert into ListOfChanges(Details)
-	select 'Удалена запись в Resources: IdResource = ' + cast(deleted.IdResource as nvarchar(max)) +
-			' NameResource = ' + deleted.NameResource +
-			' TypeResource = ' + deleted.TypeResource +
-			' DescriptionResource = ' + deleted.DescriptionResource
+	select N'Удалена запись в Resources: IdResource = ' + cast(deleted.IdResource as nvarchar(max)) +
+			N' NameResource = ' + deleted.NameResource +
+			N' TypeResource = ' + deleted.TypeResource +
+			N' DescriptionResource = ' + deleted.DescriptionResource
 			from deleted
 end;
 go
@@ -69,10 +69,10 @@ after INSERT
 as
 begin
 	insert into ListOfChanges(Details)
-	select 'Добавлена запись в Resources: IdResource = ' + cast(inserted.IdResource as nvarchar(max)) +
-			' NameResource = ' + inserted.NameResource +
-			' TypeResource = ' + inserted.TypeResource +
-			' DescriptionResource = ' + inserted.DescriptionResource
+	select N'Добавлена запись в Resources: IdResource = ' + cast(inserted.IdResource as nvarchar(max)) +
+			N' NameResource = ' + inserted.NameResource +
+			N' TypeResource = ' + inserted.TypeResource +
+			N' DescriptionResource = ' + inserted.DescriptionResource
 			from inserted
 end;
 
@@ -83,12 +83,12 @@ after UPDATE
 as
 begin
 	insert into ListOfChanges(Details)
-	select 'Модифицирована запись в AccessLogs: где было IdLog = ' + cast(deleted.IdLog as nvarchar(max)) +
-			' TimeStampLog = ' + cast(deleted.TimeStampLog as nvarchar(max)) +
-			' Details = ' + deleted.Details +
-			' стало  IdLog = ' + cast(inserted.IdLog as nvarchar(max)) +
-			' TimeStampLog = ' + cast(inserted.TimeStampLog as nvarchar(max)) +
-			' Details = ' + inserted.Details
+	select N'Модифицирована запись в AccessLogs: где было IdLog = ' + cast(deleted.IdLog as nvarchar(max)) +
+			N' TimeStampLog = ' + cast(deleted.TimeStampLog as nvarchar(max)) +
+			N' Details = ' + deleted.Details +
+			N' стало  IdLog = ' + cast(inserted.IdLog as nvarchar(max)) +
+			N' TimeStampLog = ' + cast(inserted.TimeStampLog as nvarchar(max)) +
+			N' Details = ' + inserted.Details
 			from deleted join inserted on deleted.IdLog = inserted.IdLog
 end;
 go
@@ -97,9 +97,9 @@ after DELETE
 as
 begin
 	insert into ListOfChanges(Details)
-	select 'Удалена запись в AccessLogs: IdLog = ' + cast(deleted.IdLog as nvarchar(max)) +
-			' TimeStampLog = ' + cast(deleted.TimeStampLog as nvarchar(max)) +
-			' Details = ' + deleted.Details
+	select N'Удалена запись в AccessLogs: IdLog = ' + cast(deleted.IdLog as nvarchar(max)) +
+			N' TimeStampLog = ' + cast(deleted.TimeStampLog as nvarchar(max)) +
+			N' Details = ' + deleted.Details
 			from deleted
 end;
 
@@ -110,14 +110,14 @@ after UPDATE
 as
 begin
 	insert into AccessLogs(Details)
-	select 'Модифицирована запись в AccessRights: где было IdRight = ' + cast(deleted.IdRight as nvarchar(max)) +
-			' IdUser = ' + cast(deleted.IdUser as nvarchar(max))  +
-			' IdResource = ' + cast(deleted.IdResource as nvarchar(max))  +
-			' Permission = ' + deleted.Permission +
-			' стало IdRight = ' + cast(deleted.IdRight as nvarchar(max)) +
-			' IdUser = ' + cast(deleted.IdUser as nvarchar(max))  +
-			' IdResource = ' + cast(deleted.IdResource as nvarchar(max))  +
-			' Permission = ' + deleted.Permission
+	select N'Модифицирована запись в AccessRights: где было IdRight = ' + cast(deleted.IdRight as nvarchar(max)) +
+			N' IdUser = ' + cast(deleted.IdUser as nvarchar(max))  +
+			N' IdResource = ' + cast(deleted.IdResource as nvarchar(max))  +
+			N' Permission = ' + deleted.Permission +
+			N' стало IdRight = ' + cast(deleted.IdRight as nvarchar(max)) +
+			N' IdUser = ' + cast(deleted.IdUser as nvarchar(max))  +
+			N' IdResource = ' + cast(deleted.IdResource as nvarchar(max))  +
+			N' Permission = ' + deleted.Permission
 			from deleted join inserted on deleted.IdRight = inserted.IdRight
 end;
 go
@@ -126,10 +126,10 @@ after DELETE
 as
 begin
 	insert into AccessLogs(Details)
-	select 'Удалена запись в AccessRights: IdRight = ' + cast(deleted.IdRight as nvarchar(max)) +
-			' IdUser = ' + cast(deleted.IdUser as nvarchar(max))  +
-			' IdResource = ' + cast(deleted.IdResource as nvarchar(max))  +
-			' Permission = ' + deleted.Permission
+	select N'Удалена запись в AccessRights: IdRight = ' + cast(deleted.IdRight as nvarchar(max)) +
+			N' IdUser = ' + cast(deleted.IdUser as nvarchar(max))  +
+			N' IdResource = ' + cast(deleted.IdResource as nvarchar(max))  +
+			N' Permission = ' + deleted.Permission
 			from deleted
 end;
 go
@@ -138,9 +138,9 @@ after INSERT
 as
 begin
 	insert into AccessLogs(Details)
-	select 'Добавлена запись в AccessRights: IdRight = ' + cast(inserted.IdRight as nvarchar(max)) +
-			' IdUser = ' + cast(inserted.IdUser as nvarchar(max))  +
-			' IdResource = ' + cast(inserted.IdResource as nvarchar(max))  +
-			' Permission = ' + inserted.Permission
+	select N'Добавлена запись в AccessRights: IdRight = ' + cast(inserted.IdRight as nvarchar(max)) +
+			N' IdUser = ' + cast(inserted.IdUser as nvarchar(max))  +
+			N' IdResource = ' + cast(inserted.IdResource as nvarchar(max))  +
+			N' Permission = ' + inserted.Permission
 			from inserted
 end;
