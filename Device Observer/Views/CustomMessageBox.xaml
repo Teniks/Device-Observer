@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="CustomMessageBox"
         Height="175"
-        Width="300"
+        Width="350"
         WindowStyle="None">
     
     <Grid Background="#252525">
@@ -15,8 +15,8 @@
             <RowDefinition Height="*"/>
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
-        <TextBlock x:Name="TextBlock" Text="Ваше сообщение" Margin="10" Foreground="White"/>
-        <StackPanel x:Name="ButonPanel" Grid.Row="1">
+        <TextBlock x:Name="TextBlock" Text="Ваше сообщение" TextWrapping="Wrap"  Margin="10" Foreground="White"/>
+        <StackPanel x:Name="ButonPanel" Grid.Row="1" Width="Auto">
             <Button x:Name="YesButton" Click="YesButton_Click" Content="Да" Margin="5"/>
             <Button x:Name="NoButton" Click="NoButton_Click" Content="Нет" Margin="5"/>
         </StackPanel>

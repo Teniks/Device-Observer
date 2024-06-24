@@ -48,48 +48,54 @@ namespace Device_Observer.Views
                 BackupPanel.Visibility = Visibility.Visible;
                 BackupBtn.Click += delegate (object sender, RoutedEventArgs e)
                 {
-                    // Создаем диалог сохранения
-                    SaveFileDialog saveFileDialog = new SaveFileDialog();
-
-                    // Настраиваем диалог
-                    saveFileDialog.Filter = "bak files (*.bak)|*.bak|All files (*.*)|*.*";
-                    saveFileDialog.DefaultExt = ".bak";
-                    saveFileDialog.AddExtension = true;
-
-                    // Показываем диалог и обрабатываем результат
-                    if (saveFileDialog.ShowDialog() == true)
+                    if (CustomMessageBox.Show("Вы уверены, что хотите выполнить резервное копирование?"))
                     {
-                        try
+                        // Создаем диалог сохранения
+                        SaveFileDialog saveFileDialog = new SaveFileDialog();
+
+                        // Настраиваем диалог
+                        saveFileDialog.Filter = "bak files (*.bak)|*.bak|All files (*.*)|*.*";
+                        saveFileDialog.DefaultExt = ".bak";
+                        saveFileDialog.AddExtension = true;
+
+                        // Показываем диалог и обрабатываем результат
+                        if (saveFileDialog.ShowDialog() == true)
                         {
-                            BackupManager.BackupDatabase(saveFileDialog.FileName);
-                        }
-                        catch (Exception ex)
-                        {
-                            MessageBox.Show(ex.Message);
+                            try
+                            {
+                                BackupManager.BackupDatabase(saveFileDialog.FileName);
+                            }
+                            catch (Exception ex)
+                            {
+                                MessageBox.Show(ex.Message);
+                            }
                         }
                     }
-
                 };
 
                 RestoreBtn.Click += delegate (object sender, RoutedEventArgs e)
                 {
-                    // Создаем диалог сохранения
-                    SaveFileDialog saveFileDialog = new SaveFileDialog();
-
-                    // Настраиваем диалог
-                    saveFileDialog.Filter = "bak files (*.bak)|*.bak|All files (*.*)|*.*";
-                    saveFileDialog.DefaultExt = ".bak";
-                    saveFileDialog.AddExtension = true;
-
-                    // Показываем диалог и обрабатываем результат
-                    if (saveFileDialog.ShowDialog() == true)
+                    if (CustomMessageBox.Show("Вы уверены, что хотите загрузить резервную копию?"))
                     {
-                        try
+                        // Создаем диалог сохранения
+                        SaveFileDialog saveFileDialog = new SaveFileDialog();
+
+                        // Настраиваем диалог
+                        saveFileDialog.Filter = "bak files (*.bak)|*.bak|All files (*.*)|*.*";
+                        saveFileDialog.DefaultExt = ".bak";
+                        saveFileDialog.AddExtension = true;
+
+                        // Показываем диалог и обрабатываем результат
+                        if (saveFileDialog.ShowDialog() == true)
                         {
-                            BackupManager.RestoreDatabase("C:\\MyDatabaseBackup.bak");
-                        }catch (Exception ex)
-                        {
-                            MessageBox.Show(ex.Message);
+                            try
+                            {
+                                BackupManager.RestoreDatabase("C:\\MyDatabaseBackup.bak");
+                            }
+                            catch (Exception ex)
+                            {
+                                MessageBox.Show(ex.Message);
+                            }
                         }
                     }
                 };
