@@ -4,7 +4,6 @@ using Microsoft.Win32;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
-using System.Data.SqlClient;
 using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
@@ -49,15 +48,12 @@ namespace Device_Observer.Views
                 BackupPanel.Visibility = Visibility.Visible;
                 BackupBtn.Click += delegate (object sender, RoutedEventArgs e)
                 {
-                    string connectionStr = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"C:\\Users\\Vtx\\source\\repos\\Device Observer\\Device Observer\\data\\db_local.mdf\";Integrated Security=True";
-
-
                     // Создаем диалог сохранения
                     SaveFileDialog saveFileDialog = new SaveFileDialog();
 
                     // Настраиваем диалог
-                    saveFileDialog.Filter = "xlsx files (*.xlsx)|*.xlsx|All files (*.*)|*.*";
-                    saveFileDialog.DefaultExt = ".xlsx";
+                    saveFileDialog.Filter = "bak files (*.bak)|*.bak|All files (*.*)|*.*";
+                    saveFileDialog.DefaultExt = ".bak";
                     saveFileDialog.AddExtension = true;
 
                     // Показываем диалог и обрабатываем результат
@@ -65,7 +61,7 @@ namespace Device_Observer.Views
                     {
                         try
                         {
-                            BackupManager.BackupDatabase(connectionStr, "C:\\MyDatabaseBackup.bak");
+                            BackupManager.BackupDatabase(saveFileDialog.FileName);
                         }
                         catch (Exception ex)
                         {
@@ -77,14 +73,12 @@ namespace Device_Observer.Views
 
                 RestoreBtn.Click += delegate (object sender, RoutedEventArgs e)
                 {
-                    string connectionStr = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"C:\\Users\\Vtx\\source\\repos\\Device Observer\\Device Observer\\data\\db_local.mdf\";Integrated Security=True";
-
                     // Создаем диалог сохранения
                     SaveFileDialog saveFileDialog = new SaveFileDialog();
 
                     // Настраиваем диалог
-                    saveFileDialog.Filter = "xlsx files (*.xlsx)|*.xlsx|All files (*.*)|*.*";
-                    saveFileDialog.DefaultExt = ".xlsx";
+                    saveFileDialog.Filter = "bak files (*.bak)|*.bak|All files (*.*)|*.*";
+                    saveFileDialog.DefaultExt = ".bak";
                     saveFileDialog.AddExtension = true;
 
                     // Показываем диалог и обрабатываем результат
@@ -92,7 +86,7 @@ namespace Device_Observer.Views
                     {
                         try
                         {
-                            BackupManager.RestoreDatabase(connectionStr, "C:\\MyDatabaseBackup.bak");
+                            BackupManager.RestoreDatabase("C:\\MyDatabaseBackup.bak");
                         }catch (Exception ex)
                         {
                             MessageBox.Show(ex.Message);
