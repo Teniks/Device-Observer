@@ -54,3 +54,61 @@ C:\Users\Vtx\source\repos\Device Observer\Device Observer\obj\Release\Device Obs
 C:\Users\Vtx\source\repos\Device Observer\Device Observer\obj\Release\Device O.F6A8A014.Up2Date
 C:\Users\Vtx\source\repos\Device Observer\Device Observer\obj\Release\Device Observer.exe
 C:\Users\Vtx\source\repos\Device Observer\Device Observer\obj\Release\Device Observer.pdb
+C:\Device-Observer\Device Observer\bin\Release\data\au_db.mdf
+C:\Device-Observer\Device Observer\bin\Release\data\au_db_log.ldf
+C:\Device-Observer\Device Observer\bin\Release\data\db_local.mdf
+C:\Device-Observer\Device Observer\bin\Release\data\db_local_log.ldf
+C:\Device-Observer\Device Observer\bin\Release\Device Observer.exe.config
+C:\Device-Observer\Device Observer\bin\Release\Device Observer.exe
+C:\Device-Observer\Device Observer\bin\Release\Device Observer.pdb
+C:\Device-Observer\Device Observer\bin\Release\ClosedXML.dll
+C:\Device-Observer\Device Observer\bin\Release\DocumentFormat.OpenXml.dll
+C:\Device-Observer\Device Observer\bin\Release\EntityFramework.dll
+C:\Device-Observer\Device Observer\bin\Release\EntityFramework.SqlServer.dll
+C:\Device-Observer\Device Observer\bin\Release\ExcelNumberFormat.dll
+C:\Device-Observer\Device Observer\bin\Release\Irony.dll
+C:\Device-Observer\Device Observer\bin\Release\SixLabors.Fonts.dll
+C:\Device-Observer\Device Observer\bin\Release\System.Buffers.dll
+C:\Device-Observer\Device Observer\bin\Release\System.IO.Packaging.dll
+C:\Device-Observer\Device Observer\bin\Release\System.Memory.dll
+C:\Device-Observer\Device Observer\bin\Release\System.Numerics.Vectors.dll
+C:\Device-Observer\Device Observer\bin\Release\System.Runtime.CompilerServices.Unsafe.dll
+C:\Device-Observer\Device Observer\bin\Release\XLParser.dll
+C:\Device-Observer\Device Observer\bin\Release\ClosedXML.xml
+C:\Device-Observer\Device Observer\bin\Release\DocumentFormat.OpenXml.xml
+C:\Device-Observer\Device Observer\bin\Release\EntityFramework.xml
+C:\Device-Observer\Device Observer\bin\Release\EntityFramework.SqlServer.xml
+C:\Device-Observer\Device Observer\bin\Release\ExcelNumberFormat.xml
+C:\Device-Observer\Device Observer\bin\Release\SixLabors.Fonts.xml
+C:\Device-Observer\Device Observer\bin\Release\System.Buffers.xml
+C:\Device-Observer\Device Observer\bin\Release\System.IO.Packaging.xml
+C:\Device-Observer\Device Observer\bin\Release\System.Memory.xml
+C:\Device-Observer\Device Observer\bin\Release\System.Numerics.Vectors.xml
+C:\Device-Observer\Device Observer\bin\Release\System.Runtime.CompilerServices.Unsafe.xml
+C:\Device-Observer\Device Observer\obj\Release\Device Observer.csproj.AssemblyReference.cache
+C:\Device-Observer\Device Observer\obj\Release\MainWindow.g.cs
+C:\Device-Observer\Device Observer\obj\Release\Views\AddEditView.g.cs
+C:\Device-Observer\Device Observer\obj\Release\Views\AuthorizationView.g.cs
+C:\Device-Observer\Device Observer\obj\Release\Views\CustomMessageBox.g.cs
+C:\Device-Observer\Device Observer\obj\Release\Views\DevicesListView.g.cs
+C:\Device-Observer\Device Observer\obj\Release\Views\RegistrationView.g.cs
+C:\Device-Observer\Device Observer\obj\Release\App.g.cs
+C:\Device-Observer\Device Observer\obj\Release\Device Observer_Content.g.cs
+C:\Device-Observer\Device Observer\obj\Release\Device Observer_MarkupCompile.cache
+C:\Device-Observer\Device Observer\obj\Release\Device Observer_MarkupCompile.lref
+C:\Device-Observer\Device Observer\obj\Release\App.baml
+C:\Device-Observer\Device Observer\obj\Release\MainWindow.baml
+C:\Device-Observer\Device Observer\obj\Release\Views\AddEditView.baml
+C:\Device-Observer\Device Observer\obj\Release\Views\AuthorizationView.baml
+C:\Device-Observer\Device Observer\obj\Release\Views\CustomMessageBox.baml
+C:\Device-Observer\Device Observer\obj\Release\Views\DevicesListView.baml
+C:\Device-Observer\Device Observer\obj\Release\Views\RegistrationView.baml
+C:\Device-Observer\Device Observer\obj\Release\Device Observer.g.resources
+C:\Device-Observer\Device Observer\obj\Release\Device_Observer.Properties.Resources.resources
+C:\Device-Observer\Device Observer\obj\Release\Device Observer.csproj.GenerateResource.cache
+C:\Device-Observer\Device Observer\obj\Release\Device Observer.csproj.CoreCompileInputs.cache
+C:\Device-Observer\Device Observer\obj\Release\Device Observer.exe
+C:\Device-Observer\Device Observer\obj\Release\Device Observer.pdb
+C:\Device-Observer\Device Observer\bin\Release\Newtonsoft.Json.dll
+C:\Device-Observer\Device Observer\bin\Release\Newtonsoft.Json.xml
+C:\Device-Observer\Device Observer\obj\Release\Device O.F6A8A014.Up2Date

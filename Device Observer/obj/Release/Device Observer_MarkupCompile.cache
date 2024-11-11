@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Vtx\source\repos\Device Observer\Device Observer\obj\Release\
+C:\Device-Observer\Device Observer\obj\Release\
 Device_Observer
 none
 false
 TRACE
-C:\Users\Vtx\source\repos\Device Observer\Device Observer\App.xaml
+C:\Device-Observer\Device Observer\App.xaml
 6-177730054
 8-1487916324
-361806603862
-136-790808050
+41-2121580745
+1371082416078
 MainWindow.xaml;Views\AddEditView.xaml;Views\AuthorizationView.xaml;Views\CustomMessageBox.xaml;Views\DevicesListView.xaml;Views\RegistrationView.xaml;
 
-False
+True
 

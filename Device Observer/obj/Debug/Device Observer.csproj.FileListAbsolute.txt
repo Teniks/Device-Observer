@@ -54,3 +54,59 @@ C:\Users\Vtx\source\repos\Device Observer\Device Observer\bin\Debug\System.Runti
 C:\Users\Vtx\source\repos\Device Observer\Device Observer\obj\Debug\App.baml
 C:\Users\Vtx\source\repos\Device Observer\Device Observer\obj\Debug\Views\CustomMessageBox.g.cs
 C:\Users\Vtx\source\repos\Device Observer\Device Observer\obj\Debug\Views\CustomMessageBox.baml
+C:\Device-Observer\Device Observer\bin\Debug\data\au_db.mdf
+C:\Device-Observer\Device Observer\bin\Debug\data\au_db_log.ldf
+C:\Device-Observer\Device Observer\bin\Debug\data\db_local.mdf
+C:\Device-Observer\Device Observer\bin\Debug\data\db_local_log.ldf
+C:\Device-Observer\Device Observer\bin\Debug\Device Observer.exe.config
+C:\Device-Observer\Device Observer\bin\Debug\Device Observer.exe
+C:\Device-Observer\Device Observer\bin\Debug\Device Observer.pdb
+C:\Device-Observer\Device Observer\bin\Debug\ClosedXML.dll
+C:\Device-Observer\Device Observer\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Device-Observer\Device Observer\bin\Debug\EntityFramework.dll
+C:\Device-Observer\Device Observer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Device-Observer\Device Observer\bin\Debug\ExcelNumberFormat.dll
+C:\Device-Observer\Device Observer\bin\Debug\Irony.dll
+C:\Device-Observer\Device Observer\bin\Debug\SixLabors.Fonts.dll
+C:\Device-Observer\Device Observer\bin\Debug\System.Buffers.dll
+C:\Device-Observer\Device Observer\bin\Debug\System.IO.Packaging.dll
+C:\Device-Observer\Device Observer\bin\Debug\System.Memory.dll
+C:\Device-Observer\Device Observer\bin\Debug\System.Numerics.Vectors.dll
+C:\Device-Observer\Device Observer\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Device-Observer\Device Observer\bin\Debug\XLParser.dll
+C:\Device-Observer\Device Observer\bin\Debug\ClosedXML.xml
+C:\Device-Observer\Device Observer\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Device-Observer\Device Observer\bin\Debug\EntityFramework.xml
+C:\Device-Observer\Device Observer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Device-Observer\Device Observer\bin\Debug\ExcelNumberFormat.xml
+C:\Device-Observer\Device Observer\bin\Debug\SixLabors.Fonts.xml
+C:\Device-Observer\Device Observer\bin\Debug\System.Buffers.xml
+C:\Device-Observer\Device Observer\bin\Debug\System.IO.Packaging.xml
+C:\Device-Observer\Device Observer\bin\Debug\System.Memory.xml
+C:\Device-Observer\Device Observer\bin\Debug\System.Numerics.Vectors.xml
+C:\Device-Observer\Device Observer\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Device-Observer\Device Observer\obj\Debug\Device Observer.csproj.AssemblyReference.cache
+C:\Device-Observer\Device Observer\obj\Debug\MainWindow.g.cs
+C:\Device-Observer\Device Observer\obj\Debug\Views\AddEditView.g.cs
+C:\Device-Observer\Device Observer\obj\Debug\Views\AuthorizationView.g.cs
+C:\Device-Observer\Device Observer\obj\Debug\Views\CustomMessageBox.g.cs
+C:\Device-Observer\Device Observer\obj\Debug\Views\DevicesListView.g.cs
+C:\Device-Observer\Device Observer\obj\Debug\Views\RegistrationView.g.cs
+C:\Device-Observer\Device Observer\obj\Debug\App.g.cs
+C:\Device-Observer\Device Observer\obj\Debug\Device Observer_Content.g.cs
+C:\Device-Observer\Device Observer\obj\Debug\Device Observer_MarkupCompile.cache
+C:\Device-Observer\Device Observer\obj\Debug\Device Observer_MarkupCompile.lref
+C:\Device-Observer\Device Observer\obj\Debug\App.baml
+C:\Device-Observer\Device Observer\obj\Debug\MainWindow.baml
+C:\Device-Observer\Device Observer\obj\Debug\Views\AddEditView.baml
+C:\Device-Observer\Device Observer\obj\Debug\Views\AuthorizationView.baml
+C:\Device-Observer\Device Observer\obj\Debug\Views\CustomMessageBox.baml
+C:\Device-Observer\Device Observer\obj\Debug\Views\DevicesListView.baml
+C:\Device-Observer\Device Observer\obj\Debug\Views\RegistrationView.baml
+C:\Device-Observer\Device Observer\obj\Debug\Device Observer.g.resources
+C:\Device-Observer\Device Observer\obj\Debug\Device_Observer.Properties.Resources.resources
+C:\Device-Observer\Device Observer\obj\Debug\Device Observer.csproj.GenerateResource.cache
+C:\Device-Observer\Device Observer\obj\Debug\Device Observer.csproj.CoreCompileInputs.cache
+C:\Device-Observer\Device Observer\obj\Debug\Device Observer.csproj.CopyComplete
+C:\Device-Observer\Device Observer\obj\Debug\Device Observer.exe
+C:\Device-Observer\Device Observer\obj\Debug\Device Observer.pdb

@@ -1,0 +1,101 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Device-Observer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E355C7CD-F6C5-4DD0-BA62-0906BD2FE6A1}|Device Observer\\Device Observer.csproj|c:\\device-observer\\device observer\\models\\githubclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E355C7CD-F6C5-4DD0-BA62-0906BD2FE6A1}|Device Observer\\Device Observer.csproj|solutionrelative:device observer\\models\\githubclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E355C7CD-F6C5-4DD0-BA62-0906BD2FE6A1}|Device Observer\\Device Observer.csproj|C:\\Device-Observer\\device observer\\models\\updatechecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E355C7CD-F6C5-4DD0-BA62-0906BD2FE6A1}|Device Observer\\Device Observer.csproj|solutionrelative:device observer\\models\\updatechecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E355C7CD-F6C5-4DD0-BA62-0906BD2FE6A1}|Device Observer\\Device Observer.csproj|C:\\Device-Observer\\device observer\\models\\updatedownloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E355C7CD-F6C5-4DD0-BA62-0906BD2FE6A1}|Device Observer\\Device Observer.csproj|solutionrelative:device observer\\models\\updatedownloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E355C7CD-F6C5-4DD0-BA62-0906BD2FE6A1}|Device Observer\\Device Observer.csproj|C:\\Device-Observer\\device observer\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E355C7CD-F6C5-4DD0-BA62-0906BD2FE6A1}|Device Observer\\Device Observer.csproj|solutionrelative:device observer\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E355C7CD-F6C5-4DD0-BA62-0906BD2FE6A1}|Device Observer\\Device Observer.csproj|C:\\Device-Observer\\device observer\\data\\version.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E355C7CD-F6C5-4DD0-BA62-0906BD2FE6A1}|Device Observer\\Device Observer.csproj|solutionrelative:device observer\\data\\version.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Device-Observer\\Device Observer\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Device Observer\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Device-Observer\\Device Observer\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Device Observer\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB8AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T09:10:03.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UpdateDownloader.cs",
+              "DocumentMoniker": "C:\\Device-Observer\\Device Observer\\Models\\UpdateDownloader.cs",
+              "RelativeDocumentMoniker": "Device Observer\\Models\\UpdateDownloader.cs",
+              "ToolTip": "C:\\Device-Observer\\Device Observer\\Models\\UpdateDownloader.cs",
+              "RelativeToolTip": "Device Observer\\Models\\UpdateDownloader.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T09:08:46.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Version.cs",
+              "DocumentMoniker": "C:\\Device-Observer\\Device Observer\\data\\Version.cs",
+              "RelativeDocumentMoniker": "Device Observer\\data\\Version.cs",
+              "ToolTip": "C:\\Device-Observer\\Device Observer\\data\\Version.cs",
+              "RelativeToolTip": "Device Observer\\data\\Version.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T09:04:22.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UpdateChecker.cs",
+              "DocumentMoniker": "C:\\Device-Observer\\Device Observer\\Models\\UpdateChecker.cs",
+              "RelativeDocumentMoniker": "Device Observer\\Models\\UpdateChecker.cs",
+              "ToolTip": "C:\\Device-Observer\\Device Observer\\Models\\UpdateChecker.cs",
+              "RelativeToolTip": "Device Observer\\Models\\UpdateChecker.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T09:00:06.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GitHubClient.cs",
+              "DocumentMoniker": "C:\\Device-Observer\\Device Observer\\Models\\GitHubClient.cs",
+              "RelativeDocumentMoniker": "Device Observer\\Models\\GitHubClient.cs",
+              "ToolTip": "C:\\Device-Observer\\Device Observer\\Models\\GitHubClient.cs",
+              "RelativeToolTip": "Device Observer\\Models\\GitHubClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T08:48:47.576Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

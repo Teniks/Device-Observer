@@ -71,10 +71,15 @@
     <Reference Include="Irony, Version=1.0.11.0, Culture=neutral, PublicKeyToken=ca48ace7223ead47, processorArchitecture=MSIL">
       <HintPath>..\packages\Irony.NetCore.1.0.11\lib\net461\Irony.dll</HintPath>
     </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="SixLabors.Fonts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=d998eea7b14cab13, processorArchitecture=MSIL">
       <HintPath>..\packages\SixLabors.Fonts.1.0.0\lib\netstandard2.0\SixLabors.Fonts.dll</HintPath>
     </Reference>
-    <Reference Include="System" />
+    <Reference Include="System">
+      <HintPath>..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.dll</HintPath>
+    </Reference>
     <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
     </Reference>
@@ -157,6 +162,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="data\Version.cs" />
     <Compile Include="Models\AccessLogs.cs">
       <DependentUpon>db_localModel.tt</DependentUpon>
     </Compile>
@@ -195,6 +201,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>db_localModel.edmx</DependentUpon>
     </Compile>
+    <Compile Include="Models\GitHubClient.cs" />
     <Compile Include="Models\Hashing.cs" />
     <Compile Include="Models\ApplicationContext.cs" />
     <Compile Include="Models\ListOfChanges.cs">
@@ -203,6 +210,8 @@
     <Compile Include="Models\Resources.cs">
       <DependentUpon>db_localModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\UpdateChecker.cs" />
+    <Compile Include="Models\UpdateDownloader.cs" />
     <Compile Include="Models\Users.cs">
       <DependentUpon>db_localModel.tt</DependentUpon>
     </Compile>
